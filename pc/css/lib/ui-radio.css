@@ -1,0 +1,7 @@
+.ui-radio i, .ui-radio { background: url(../images/lib/radio.png) no-repeat -5000px -5000px; position: relative; }
+.ui-radio-small { width: 14px; height: 10px; background-position: 0 -81px; }
+.ui-radio-small i { width: 19px; position: absolute; top: -3px; left: -2px; height: 12px; z-index: 999; background-position: 0 -101px; display: none; }
+.ui-radio-small.sp1-ui-radio-checked i { display: block; }
+.ui-radio-large { width: 55px; height:35px; background-position: 1px -50px; }
+.ui-radio-large i { width: 55px; position: absolute; top: 0; left: 1px; height: 35px; z-index: 999; background-position: 0 0;  display: none; }
+.ui-radio-large.sp1-ui-radio-checked i { display: block; }

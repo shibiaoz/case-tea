@@ -1,0 +1,194 @@
+.tea-person{
+  .tea-main{ position: relative;}
+  .section{
+    overflow: hidden; position: relative; z-index: 1; width: 100%;
+    .full-img{
+      position: absolute;left: 50%;top:50%; margin-top: -385px;margin-left: -710px; width: 1420px;
+      img{ display: block; max-width: 100%; margin: 0 auto; }
+    }
+    .section-title{ color: #ccac82;font-size: 38px; text-align: center; font-weight: normal;position: absolute;left: 0;width: 100%; }
+    .section-detailed{
+      h3{ color: #c4a57d; font-weight: 500;}
+    }
+    .section-content{
+      padding-top: 135px; position: relative; width: 1280px; left: 50%;margin-left: -640px;
+    }
+  }
+  .person-header{
+    height: 60px; z-index: 2; opacity: 0.9; background-color: #18181a; line-height: 60px;
+    .header-con >span{ font-size: 16px;color: #916f53; }
+    a{
+      float: right; display: inline-block;margin: 0 0 0 34px;text-decoration: none; font-size: 13px;color: #916f53; height: 60px;
+      &:hover,&.active{ border-bottom:3px solid #ccac82; color: #ccac82; }
+    }
+  }
+  .section-1 {
+    height: 710px;
+    .section-detailed{
+      position: absolute; left: 50%; top: 105px; margin-left: -570px; text-align: center; word-wrap:break-word; z-index: 2;
+      h3 { font-size: 48px; color: #ccac82; width: 75px;  margin: 0 auto; line-height: 56px;  }
+      .detailed-words{
+        border-top: 2px solid #525252;margin-top: 45px;padding: 45px 0 0; width: 155px;
+        > div{
+          margin: 0 auto;display: inline-block;
+        }
+      }
+      p { font-weight: 500;width: 40px; font-size: 25px; line-height: 30px; text-align: center; color: #fff; padding-right: 0;padding-left: 10px; float: right; }
+      p + p{ font-weight: normal; padding:0 5px; width:30px;  font-size: 16px;  line-height:18px; }
+    }
+  }
+  .section-2{
+    height: 452px; padding: 100px 0 20px;
+    .video-wrap{ width: 900px; height: 100%;position: relative;overflow: hidden;margin: 0 auto; }
+    .video-content{ position: absolute;left: 0;top: 0;right: 0;bottom: 0;overflow: hidden; z-index: 2;}
+    .video-btn{
+      position: absolute;left: 0;top: 0;right: 0;bottom: 0; cursor: pointer;
+      span{
+        opacity: 0.3; position: absolute;left: 0;top: 0;right: 0;bottom: 0; z-index: 5; background-color: #302f32;
+        -webkit-transition: 0.3s; -moz-transition: 0.3s; transition: 0.3s;
+      }
+      i{
+        z-index: 10; width: 75px;height: 75px;position: absolute;left: 50%;top: 50%;margin-top: -38px;margin-left: -38px; background: url(../images/pages/great/video-btn.png) no-repeat;
+        -webkit-transition: 0.3s; -moz-transition: 0.3s; transition: 0.3s;
+      }
+      &:hover {
+        span{ opacity: 0; }
+        i{ background: url(../images/pages/great/video-btn-hover.png) no-repeat; }
+      }
+    }
+  }
+  .section-3{
+    padding-top: 40px;
+    .section-title{ top: 0; position: static; }
+    .section-content{
+      .full-img{ position: relative; height: 520px; top: 0;margin-top: 0;}
+      .skill{
+        position: absolute; top: 0;
+        &.right{ right: 55px; }
+        &.left{ left: 55px; }
+      }
+      .detailed-words{
+        h3{
+          padding-bottom: 40px;
+        }
+        width: 100%; font-size: 14px;color: #fff; text-align: center; padding: 50px 0 60px;
+        p{ line-height: 30px;display: block; }
+      }
+    }
+  }
+  .section-4{
+    border-top: 1px solid #2d2522;
+    padding-bottom: 90px;
+    padding-top: 110px;
+    .section-title{ top: 90px; }
+    .section-content{
+      .banner-list{
+        position: relative;
+        .direction{
+          width: 44px; height: 260px; overflow: hidden;
+          a{ background: url(../images/pages/great/section-direction.png) no-repeat; display: block; height: 66px; width: 100%; margin-top: 97px; cursor: pointer; }
+          &.before{
+            float: left;
+            a{ background-position: 0 -30px; &:hover{ background-position: 0 -216px; } }
+          }
+          &.after{
+            float: right;
+            a{ background-position: -118px -30px; &:hover{ background-position: -117px -216px; } }
+          }
+       }
+       .banner-wrap{
+          width: 1170px; height: 360px; margin: 0 auto;position: relative;overflow: hidden;
+          ul{
+            position: absolute;left: 0;top: 0; display: block; background: url(../images/pages/great/section-banner.png) repeat-x;
+            li{
+              width: 260px; height: 360px; margin: 0 65px;display: block;float: left;
+              img{ width: 100%; height: 260px;border: 130px; }
+              p{ color: #916f53; font-size: 22px; text-align: center; margin-top: 30px; line-height: 35px; }
+            }
+            @media screen and (min-width:1px){
+              & li:last-of-type{
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .section-5,.section-6{
+    height: 720px; .full-img{ margin-top: -360px; }
+    .section-detailed{
+      top: 65px; position: absolute;left: 50%; margin-left: -605px;
+      h3{ font-size: 38px; padding-bottom: 30px; position: relative;  }
+      p{ font-size: 16px; color: #fff; line-height: 30px; position: relative;}
+    }
+  }
+  .section-6{
+    .section-detailed{
+      top: 200px;
+      h3{
+        font-size: 40px;  line-height: 65px; padding-bottom: 0;
+        i{opacity: 0;padding: 0 12px;width: 2px;display: inline-block; overflow: hidden; vertical-align: middle;height: 40px;}
+      }
+    }
+  }
+  .section-7{
+    height: 720px;
+    .section-detailed{
+        position: absolute; right: 50%; top: 190px; width: 400px; margin-right: -540px;
+        h3{ font-size: 38px; text-align: center; padding-bottom: 35px; }
+        p{
+          border-top: 2px solid #38393a; border-bottom: 2px solid #38393a; margin-bottom: 40px; position: relative;
+          >span{
+            height: 50px; display: block; color: #8f9199; line-height: 50px; font-size: 13px;
+            +span{ border-top: 1px solid #38393a;display: block; overflow: hidden; }
+            label{
+              width: 50%;height: 100%; text-indent: 20px; display: block;float: left; font-weight: 600;
+              +label{ border-left: 1px dashed #242425; }
+              em{ font-style: normal; color: #7e7f86; font-weight: normal; }
+            }
+          }
+        }
+        a{
+          width: 172px; height: 40px; margin: 0 auto; display: block; color: #916f53; border: 1px solid #916f53; text-decoration: none; text-align: center; line-height: 40px; margin-top: 25px; font-size: 16px;
+          &:hover{ background-color: #ccac82; color: #2d2522; border-color: #ccac82; }
+        }
+      }
+  }
+  .tea-footer{ margin-top: 80px; }
+}
+/* retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+  .tea-person .section-4 .section-content{
+    /* 大师制茶 */
+      .banner-list{
+        .direction{
+          &.before{
+            a{
+              background: url(../images/pages/great/before2.png) no-repeat scroll 0 0;
+              background-size: 22px 44px;
+              &:hover{
+                background: url(../images/pages/great/before-hover2.png) no-repeat scroll 0 0;
+                background-size: 22px 44px;
+              }
+            }
+          }
+          &.after{
+            a{
+              background: url(../images/pages/great/after2.png) no-repeat scroll 0 0;
+              background-size: 22px 44px;
+              &:hover{
+                background: url(../images/pages/great/after-hover2.png) no-repeat scroll 0 0;
+                background-size: 22px 44px;
+              }
+            }
+          }
+       }
+     }
+  }
+}

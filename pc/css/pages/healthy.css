@@ -1,0 +1,393 @@
+/* reset */
+ol{
+    margin: 0px;
+    padding:0px;
+}
+/* util */
+
+/* common */
+.tea-healthy{ width: 100%;}
+.tea-healthy h1{
+    color:#c4a57d;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+/* main */
+.tea-healthy .tea-main .tea-head{
+    position: relative;
+    height: 717px;
+    border-bottom: 1px solid #2D2522;
+}
+.tea-healthy .tea-main .tea-head h1{
+    position: absolute;
+    top:471px;
+    width: 100%;
+    text-align: center;
+}
+.tea-healthy .tea-main .tea-head .txt1{
+    position: absolute;
+    top:536px;
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    color:#fff;
+}
+.four-seasons{
+    height:945px;
+    text-align: center;
+    padding: 100px 0px;
+    border-bottom: 1px solid #2D2522;
+}
+.tea-healthy .tea-main .four-seasons .solid-box{
+    position: relative;
+    font-size: 0px;
+    height: 530px;
+    width: 1420px;
+    margin-top: -200px;
+}
+.tea-healthy .tea-main .four-seasons .solid-box .border{
+    position: absolute;
+    width: 1420px;
+    height: 100%;
+    bottom:0px;
+    background: url(../images/pages/healthy/border.png) no-repeat center 100%;
+}
+.tea-healthy .tea-main .four-seasons .solid-box .solid{
+    position: absolute;
+    left: 230px;
+    top: 218px;
+    width: 960px;
+    overflow: hidden;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ul{
+    width: 3840px;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ul li{
+    position: relative;
+    float: left;
+}
+.tea-healthy .tea-main .four-seasons .solid-box .fs-txt{
+    display: none;
+    position: absolute;
+    bottom: 28px;
+    width: 100%;
+    font-size:18px;
+    color:#916f53;
+    font-weight: 100;
+    line-height: 36px;
+    text-align: center;
+    z-index: 2;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ol{
+    position: absolute;
+    left: 618px;
+    top: 387px;
+    z-index: 9;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ol li{
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-right:30px;
+    cursor: pointer;
+}
+
+.tea-healthy .tea-main .box1{
+    display: inline-block;
+    width: 126px;
+    height: 111px;
+    line-height: 111px;
+    background: #171718;
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: top;
+}
+.tea-healthy .tea-main .box1 a{
+    color:#fff;
+    text-decoration: none;
+}
+.spring-box.active,.summer-box.active,.autumn-box.active,.winter-box.active{
+    display: block;
+}
+.spring-box,.summer-box,.autumn-box,.winter-box{
+    display: none;
+    margin-top:25px;
+    z-index: 2;
+}
+
+.tea-healthy .tea-main .box2{
+    width: 268px;
+}
+.tea-healthy .tea-main .box3{
+    width: 405px;
+}
+.tea-healthy .tea-main .flower-tea{
+    line-height: 176px;
+    background: url(../images/pages/healthy/flower-icon.png) no-repeat center 20px #171718;
+}
+.tea-healthy .tea-main .green-tea{
+    line-height: 176px;
+    background: url(../images/pages/healthy/green-icon.png) no-repeat center 20px #171718;
+}
+.tea-healthy .tea-main .white-tea{
+    line-height: 176px;
+    background: url(../images/pages/healthy/white-icon.png) no-repeat center 20px #171718;
+}
+.tea-healthy .tea-main .black-tea{
+    line-height: 176px;
+    background: url(../images/pages/healthy/black-icon.png) no-repeat center 20px #171718;
+}
+
+.tea-healthy .tea-main .oolong-tea{
+    line-height: 176px;
+    background: url(../images/pages/healthy/oolong-icon.png) no-repeat center 20px #171718;
+}
+.tea-healthy .tea-main .red-tea{
+    line-height: 176px;
+    background: url(../images/pages/healthy/red-icon.png) no-repeat center 20px #171718;
+}
+
+
+
+
+
+
+
+
+
+.tea-healthy .tea-main .four-seasons .solid-box ol li.spring{
+    background: url(../images/pages/healthy/spring.png) no-repeat;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ol li.spring.active{
+    background: url(../images/pages/healthy/spring-active.png) no-repeat;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ol li.summer{
+    background: url(../images/pages/healthy/summer.png) no-repeat;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ol li.summer.active{
+    background: url(../images/pages/healthy/summer-active.png) no-repeat;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ol li.autumn{
+    background: url(../images/pages/healthy/autumn.png) no-repeat;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ol li.autumn.active{
+    background: url(../images/pages/healthy/autumn-active.png) no-repeat;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ol li.winter{
+    background: url(../images/pages/healthy/winter.png) no-repeat;
+}
+.tea-healthy .tea-main .four-seasons .solid-box ol li.winter.active{
+    background: url(../images/pages/healthy/winter-active.png) no-repeat;
+}
+
+
+/*时间*/
+.tea-healthy .time{
+    position: relative;
+    height: 620px;
+    border-bottom: 1px solid #2D2522;
+}
+
+.tea-healthy .tea-main .time h1{
+    width: 100%;
+    margin-top:100px;
+    text-align: center;
+}
+.tea-healthy .tea-main .time .solid{
+    position: absolute;
+    left: 232px;
+    top: 33px;
+    width: 960px;
+    overflow: hidden;
+}
+.tea-healthy .tea-main .time .solid-box{
+    position: relative;
+    height: 530px;
+    width: 1420px;
+    margin-top: -200px;
+}
+
+.tea-healthy .tea-main .time .solid-box .border{
+    position: absolute;
+    width: 1420px;
+    height: 100%;
+    bottom:0px;
+    background: url(../images/pages/healthy/border.png) no-repeat center 100%;
+}
+.tea-healthy .tea-main .time .solid-box .solid{
+    position: absolute;
+    left: 230px;
+    top: 218px;
+    width: 960px;
+    overflow: hidden;
+}
+
+.tea-healthy .tea-main .time .solid-box ul{
+    width: 2881px;
+}
+
+.tea-healthy .tea-main .time .solid-box ul li{
+    position: relative;
+    float: left;
+}
+.tea-healthy .tea-main .time .solid-box ol{
+    position: absolute;
+    left: 618px;
+    top: 387px;
+    z-index: 9;
+}
+.tea-healthy .tea-main .time .solid-box ol li{
+    width: 48px;
+    height: 27px;
+    float: left;
+    margin-right:30px;
+    cursor: pointer;
+}
+.tea-healthy .tea-main .time .solid-box .fs-txt{
+    display: none;
+    position: absolute;
+    bottom: 28px;
+    width: 100%;
+    font-size:18px;
+    color:#916f53;
+    font-weight: 100;
+    line-height: 36px;
+    text-align: center;
+    z-index: 2;
+}
+.morning-box,.midday-box,.night-box{
+    display: none;
+    margin-top: 25px;
+    z-index: 2;
+    text-align: center;
+}
+.morning-box.active,.midday-box.active,.night-box.active{
+    display: block;
+}
+.tea-healthy .tea-main .time .solid-box .fs-txt.b{
+    bottom:60px;
+}
+.tea-healthy .tea-main .time .solid-box ol li.morning{
+    background: url(../images/pages/healthy/morning.png) no-repeat;
+}
+.tea-healthy .tea-main .time .solid-box ol li.morning.active{
+    background: url(../images/pages/healthy/morning-active.png) no-repeat;
+}
+.tea-healthy .tea-main .time .solid-box ol li.midday{
+    background: url(../images/pages/healthy/midday.png) no-repeat;
+}
+.tea-healthy .tea-main .time .solid-box ol li.midday.active{
+    background: url(../images/pages/healthy/midday-active.png) no-repeat;
+}
+.tea-healthy .tea-main .time .solid-box ol li.night{
+    background: url(../images/pages/healthy/night.png) no-repeat;
+}
+.tea-healthy .tea-main .time .solid-box ol li.night.active{
+    background: url(../images/pages/healthy/night-active.png) no-repeat;
+}
+
+
+
+/*体质*/
+.tea-healthy .tea-main .build{
+    padding-bottom:100px;
+}
+.tea-healthy .tea-main .build h1{
+    width: 100%;
+    margin: 100px 0px 55px 0px;
+    text-align: center;
+}
+.tea-healthy .tea-main .build-box{
+    width:1027px;
+    margin: 0px auto;
+}
+
+.tea-healthy .tea-main .build-box .title{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 8px;
+    color:#c4a57d;
+    background: #171718;
+}
+.tea-healthy .tea-main .tes-list{
+    text-align: center;
+    border-radius: 8px;
+    background: #171718;
+    margin-bottom: 10px;
+}
+.tea-healthy .tea-main .build-box .title.clearmargin{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tea-healthy .tea-main .tes-list .box1{
+    width: 100px;
+}
+.tea-healthy .tea-main .item .box1.first{
+    margin-right: 20px;
+    font-size:36px;
+    color:#171718;
+}
+.tea-healthy .tea-main .item .box1.first.good{
+    background: #b79a75;
+}
+.tea-healthy .tea-main .item .box1.first.bad{
+    background: #8f9199;
+}
+.tea-healthy .tea-main .item{
+    font-size: 0px;
+}
+.tea-healthy .tea-main .item .box1{
+    margin-left: 0px;
+    font-size:16px;
+}
+.tea-healthy .tea-main .item .mr-25{
+    margin-right: 25px;
+}
+.tea-healthy .tea-main .item .two-line{
+    padding-top: 40px;
+    line-height: 25px;
+}
+.tea-healthy .tea-main .item .end{
+    margin: 5px 0px;
+}
+
+.golden{color: #ccac82 !important}
+.tea-healthy {
+    /*下一步,上一步*/
+    .prev,.next{
+        position: absolute;
+        width: 22px;
+        height: 44px;
+        top:330px;
+        cursor: pointer;
+    }
+    .prev{
+        left:126px;
+        background: url(../images/pages/healthy/prev.png) no-repeat;
+    }
+    .next{
+        right: 126px;
+        background: url(../images/pages/healthy/next.png) no-repeat;
+    }
+
+    .prev:hover{
+        background: url(../images/pages/healthy/prev-active.png) no-repeat;
+    }
+    .next:hover{
+        right: 126px;
+        background: url(../images/pages/healthy/next-active.png) no-repeat;
+    }
+}
+
+.tea-healthy .box-list a{
+    cursor: pointer;
+}

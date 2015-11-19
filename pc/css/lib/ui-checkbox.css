@@ -1,0 +1,13 @@
+.ui-checkbox i, .ui-checkbox {
+  background: url(../images/lib/checkbox.png) no-repeat -5000px -5000px;
+  position: relative;
+}
+.ui-checkbox-small {
+  width: 22px;
+  height: 22px;
+  background-position: 0 0;
+}
+.ui-checkbox-small.sp1-ui-checkbox-checked{
+  display: block;
+  background-position: 0 -29px;
+}

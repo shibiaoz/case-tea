@@ -1,0 +1,94 @@
+.tea-great {
+  .person-header{
+      position: relative;height: 60px; z-index: 2; opacity: 0.9; background-color: #18181a; line-height: 60px;
+    .header-con >span{ font-size: 16px;color: #916f53; }
+    a{
+      float: right; display: inline-block;margin: 0 0 0 34px;text-decoration: none; font-size: 13px;color: #916f53; height: 60px;
+      &:hover,&.active{ border-bottom:3px solid #ccac82; color: #ccac82; }
+    }
+  }
+  .tea-main {
+    width: 100%; overflow: hidden;
+    h3{ font-weight: 500; }
+    .home-banner {
+      height: 820px;position: relative;border-bottom:1px solid #2d2522;
+      .full-img{
+        display: block; position: absolute;left: 50%;top:50%;
+        margin-top: -211px;margin-left: -710px;
+      }
+      .banner-detailed{
+        text-align: center; /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+        h3 { position: absolute;left: 0;top: 110px; font-size: 48px; color: #ccac82; width: 100%; }
+        p {  position: absolute;left: 0;bottom: 160px; font-size: 16px; color: #fff; line-height: 30px; width: 100%; }
+      }
+    }
+    .person-list{
+        position: relative;
+        padding-top: 160px;  height: 2000px;width: 100%;background: url(../images/pages/great/footer-bg.png) no-repeat scroll center bottom;
+        /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+        .section-title{
+          position: absolute; left: 0;top: 60px;text-align: center; font-size: 48px; color: #ccac82; width: 100%;
+        }
+        ul{
+          display: block;width: 1280px;margin: 0 auto;
+          li{
+            float: left; display: block; width: 320px;padding-bottom: 70px;
+            .section-detailed{
+              width: 100%; height: 140px; text-align: center;position: relative; overflow: hidden;
+              h3 { font-size: 30px; color: #ccac82; }
+              p { font-size: 16px; color: #fff; margin-top: 10px;  line-height: 30px; }
+              .section-wrap{ position: absolute;left: 0;top: 0; width: 100%; }
+            }
+            .shop-link{
+              width: 138px;height: 32px;margin: 0 auto;display: block;color: #916f53; border: 1px solid #916f53; text-decoration: none; text-align: center;line-height: 32px; margin-top: 25px; /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+              &:hover{
+                background-color: #ccac82;
+                color: #2d2522;
+                border-color: #ccac82;
+              }
+            }
+            .person{
+              width: 100%;height: 340px;display: block; background: url(../images/pages/great/person-list.png) no-repeat;
+            }
+            .box{
+              display: block;width: 107px;height: 88px;margin: 0 auto; background: url(../images/pages/great/box-list.png) no-repeat;
+            }
+            &.sort-0{
+              .person{ background-position: -25px 0; }
+              .box{ background-position: -0 0; }
+            }
+            &.sort-1{
+              .person{ background-position: -395px 0; }
+              .box{ background-position: -107px 0; }
+            }
+            &.sort-2{
+              .person{ background-position: -765px 0; }
+              .box{ background-position: -214px 0; }
+            }
+            &.sort-3{
+              .person{ background-position: -1135px 0; }
+              .box{ background-position: -321px 0; }
+            }
+            &.sort-4{
+              .person{ background-position: -1505px 0; }
+              .box{ background-position: -428px 0; }
+
+            }
+            &.sort-5{
+              .person{ background-position: -1875px 0; }
+              .box{ background-position: -535px 0; }
+            }
+            &.sort-6{
+              .person{ background-position: -2245px 0; }
+              .box{ background-position: -643px 0; }
+            }
+            &.sort-7{
+              .person{ background-position: -2615px 0; }
+              .box{ background-position: -749px 0; }
+            }
+          }
+        }
+    }
+  }
+  .tea-footer{ margin-top: 80px; }
+}

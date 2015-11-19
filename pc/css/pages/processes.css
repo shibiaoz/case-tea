@@ -1,0 +1,109 @@
+.processes {
+  .txt {
+    color: #c4a57d;
+    .txt1 {
+      font-size: 40px;
+    }
+    .txt2,
+    .txt3 {
+      font-size: 30px;
+      margin-top: 6px;
+    }
+    .txt3{
+      margin-top: 0;
+    }
+  }
+
+  .skroller{
+    position: relative;
+    height: 100%;
+  }
+
+  .section-text {
+    height: 230px;
+    background-color: black;
+    .wrapper {
+      .section-txt {
+        width: 645px;
+        padding-top: 80px;
+        line-height: 32px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+      }
+    }
+  }
+  .section1 {
+    height: 710px;
+    background: url(../images/pages/product/processes/s1-bg.jpg) no-repeat center bottom;
+    .wrapper {
+      .txt {
+        top: 278px;
+        right: 114px;
+        text-align: center;
+      }
+    }
+  }
+  .section2 {
+    height: 770px;
+    .skroller{
+      background:  url(../images/pages/product/processes/s2-bg.jpg) no-repeat center top;
+    }
+    .wrapper {
+      .txt {
+        top: 356px;
+        left: 0;
+      }
+    }
+  }
+  .section3 {
+    height: 770px;
+    .skroller{
+      background:  url(../images/pages/product/processes/s3-bg.jpg) no-repeat center center;
+    }
+    .wrapper {
+      .txt {
+        top: 252px;
+        right: 50px;
+      }
+    }
+  }
+  .section4 {
+    height: 770px;
+    .skroller{
+      background:  url(../images/pages/product/processes/s4-bg.png) no-repeat center center;
+    }
+    .wrapper {
+      .txt {
+        top: 80px;
+        left: 50%;
+        margin-left: -215px;
+        width: 530px;
+        .txt2 {
+          text-indent: 0.7em;
+        }
+      }
+      .tea-name {
+        top: 482px;
+        left: -22px;
+        width: 1280px;
+        height: 93px;
+        li {
+          float: left;
+          width: 160px;
+          p {
+            line-height: 32px;
+            text-align: center;
+            font-size: 16px;
+            color: #916f53;
+          }
+          p:first-child {
+            font-size: 20px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

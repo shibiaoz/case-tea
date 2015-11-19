@@ -1,0 +1,177 @@
+<div class="wrapper rel">
+   <h1 class="logo">
+    <a href="index.php"> 
+      <span>小罐茶</span>
+      <img src="public/images/lib/header-footer/logo.png" />
+    </a>
+   </h1>
+   <div class="nav">
+    <div class="nav-item">
+          <a href="index.php?r=product/index/" class="product-n">小罐茶</a>
+          <div class="nav-wrap nav-wrap-product product">
+            <a class="item-7" href="index.php?r=product/puersheng/">
+              <span>普洱生茶</span>
+            </a>
+            <a class="item-8" href="index.php?r=product/puershu/">
+              <span>普洱熟茶</span>
+            </a>
+            <a class="item-0"   href="index.php?r=product/longjing/">
+              <span>西湖龙井</span>
+            </a>
+            <a class="item-2"  href="index.php?r=product/wuyi/">
+              <span>武夷大红袍</span>
+            </a>
+            <a class="item-3"  href="index.php?r=product/qingxiang/">
+              <span>清香铁观音</span>
+            </a>
+            <a class="item-4"  href="index.php?r=product/nongxiang/">
+              <span>浓香铁观音</span>
+            </a>
+            <a class="item-1"  href="index.php?r=product/huangshan/">
+              <span>黄山毛峰</span>
+            </a>
+            <a class="item-9"  href="index.php?r=product/molihua/">
+              <span>茉莉花茶</span>
+            </a>
+            <a class="item-6"  href="index.php?r=product/dianhong/">
+              <span>滇红</span>
+            </a>
+            <a class="item-10"  href="index.php?r=product/fuding/">
+              <span>福鼎白茶</span>
+            </a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="index.php?r=great/index/">制茶大师</a>
+        </div>
+        <div class="nav-item">
+          <a href="index.php?r=teatool/index/" class="tea-tool-n">小罐茶具</a>
+          <div class="nav-wrap nav-wrap-product tea-tool">
+            <a class="item-1" href="index.php?r=teatool/zhangguanbei/">
+              <span>长官杯</span>
+            </a>
+            <a class="item-2" href="index.php?r=teatool/xingzhengtaobei/">
+              <span>行政套装</span>
+            </a>
+            <a class="item-3" href="index.php?r=teatool/gongfutaobei/">
+              <span>功夫套装</span>
+            </a>
+            <a class="item-4" href="index.php?r=teatool/bianxiebao/">
+              <span>便携包</span>
+            </a>
+            <a class="item-5" href="index.php?r=teatool/lvxingbei/">
+              <span>旅行杯</span>
+            </a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="index.php?r=healthy/index/">健康喝茶</a>
+        </div>
+        <div class="nav-item">
+          <a href="index.php?r=business/business/">商务·范</a>
+        </div>
+        <div class="nav-item">
+          <a href="index.php?r=shop/index/">在线商店</a>
+        </div>
+   </div>
+   <div class="quick"> 
+    <a href="index.php?r=site/login/" class="user"></a>
+     <a href="index.php?r=member/all/" class="member" style="display: none;">个人中心 </a>
+    <i></i>
+    <a href="javascript:void(0);" class="search"></a>
+    <div class="search-box hide">
+      <form action="/">
+        <input type="text" name="keywords" placeholder="搜索">
+        <a href="javascript:void(0);" class="search-btn"></a>
+      </form>
+    </div>
+   </div>
+</div>
+<div id="member_list">
+    <ul>
+        <li><a href="index.php?r=member/index/">我的订单</a></li>
+        <li><a href="index.php?r=member/account/">账户资料</a></li>
+        <li><a href="index.php?r=member/address/">收货地址</a></li>
+        <li><a href="index.php?r=site/logout/">退出</a></li>
+    </ul>
+</div>
+
+<script>
+(function($){
+    $(document).ready(function(){
+          $.get("index.php?r=/site/loginStatus/", {}, function (res) {
+                  if(res.stat=="1"){
+                    $(".user").hide();
+                    $(".member").show();
+                  }
+                  var $member = $('#member_list');
+                  var flag_member_in = false;
+                  var $cart = $('#cart_list');
+                  var flag_cart_in = false;
+                   //member
+                  $('.member').mouseover(function(){
+                      // fixed 定位，下面的就不需要了吧
+                      var left = $(this).offset().left;
+                      var s_top  = $(document).scrollTop();
+                      if(s_top < 78){
+                          $member.css({left:left-10,top:(78-s_top)});
+                      }else{
+                          $member.css({left:left-10});
+                      }
+                      statereset();
+                      $(this).addClass('member-up');
+                      $member.show();
+                  });
+                  $member.hover(function(){
+                      flag_member_in = true;
+                      $(this).addClass('member-up');
+                  },function(){
+                      if(flag_member_in){
+                          $(this).hide();
+                          flag_member_in = false;
+                          $('.member').removeClass('member-up');
+                      }
+                  });
+
+                  //顶部购物车
+                  $('.cart_list_hover').mouseenter(function(){
+                      var left = $(this).offset().left;
+                      var s_top  = $(document).scrollTop();
+                      if(s_top < 78){
+                          $cart.css({left:left-429+39,top:65+(78-s_top)});
+                      }else{
+                          $cart.css({left:left-429+39,top:65});
+                      }
+                      statereset();
+                      $cart.show();
+                  });
+                  $cart.hover(function(){
+                      flag_cart_in = true;
+                  },function(){
+                      if(flag_cart_in){
+                          $(this).hide();
+                          flag_cart_in = false;
+                      }
+                  });
+
+                  function statereset(){
+                      flag_member_in = false;
+                      flag_cart_in = false;
+                      $cart.hide();
+                      $member.hide();
+                  }
+
+
+                  $(window).scroll(function(){
+                      flag_member_in = false;
+                      flag_cart_in = false;
+                      $('.member').removeClass('member-up');
+                      $member.hide();
+                      $cart.hide();
+                  });
+
+        }, "json");
+    })
+})(jQuery);    
+    
+</script>

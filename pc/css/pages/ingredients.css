@@ -1,0 +1,96 @@
+.ingredients {
+  .txt {
+    color: #ccac82;
+    .txt1 {
+      font-size: 40px;
+    }
+    .txt2,
+    .txt3 {
+      font-size: 30px;
+      margin-top: 6px;
+    }
+  }
+
+  .skroller{
+    position: relative;
+    height: 100%;
+  }
+
+  .section-text {
+    height: 230px;
+    background-color: black;
+    .wrapper {
+      .section-txt {
+        width: 645px;
+        padding-top: 80px;
+        line-height: 32px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+        color: #c8c9c7;
+      }
+    }
+  }
+  .section1 {
+    height: 709px;
+    background: url(../images/pages/product/ingredients/s1-bg.jpg) no-repeat center -132px;
+    .wrapper {
+      .txt {
+        top: 280px;
+        left: 50%;
+        width: 396px;
+        margin-left: -198px ;
+        text-align: center;
+      }
+    }
+  }
+  .section2 {
+    height: 770px;
+    .skroller{
+      background: url(../images/pages/product/ingredients/s2-bg.jpg) no-repeat center -45px;
+    }
+    .wrapper {
+      .txt {
+        top: 319px;
+        left: 0;
+      }
+    }
+  }
+  #section-text1 {
+    .section-txt {
+      width: 565px;
+    }
+  }
+  .section3 {
+    height: 770px;
+    .skroller{
+      background: url(../images/pages/product/ingredients/s3-bg.jpg) no-repeat center 0;
+    }
+    .wrapper {
+      .txt {
+        top: 252px;
+        left: 100px;
+      }
+    }
+  }
+  #section-text2 {
+    .section-txt {
+      width: 638px;
+    }
+  }
+  .section4 {
+    height: 770px;
+    .skroller{
+      background: url(../images/pages/product/ingredients/s4-bg.jpg) no-repeat center -82px;
+    }
+    .wrapper {
+      .txt {
+        top: 343px;
+        right: 59px;
+      }
+    }
+  }
+
+
+
+}

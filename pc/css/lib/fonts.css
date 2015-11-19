@@ -1,0 +1,11 @@
+/* Font Face */
+@font-face { 
+  font-family: 'LanTing';
+  font-style: normal;
+  src: url('../fonts/LanTing.TTF') format('truetype');
+}
+@font-face { 
+  font-family: 'LanTing L';
+  font-style: normal;
+  src: url('../fonts/LanTing-L.TTF') format('truetype');
+}   

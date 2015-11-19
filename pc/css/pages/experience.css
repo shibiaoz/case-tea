@@ -1,0 +1,131 @@
+.experience {
+  .txt {
+    color: #c4a57d;
+    .txt1 {
+      font-size: 40px;
+    }
+    .txt2,
+    .txt3 {
+      font-size: 30px;
+      margin-top: 6px;
+    }
+    .txt3{
+        margin-top:-6px;
+    } 
+  }
+
+  .skroller{ 
+    position: relative;
+    height: 100%;
+  }
+
+  .section-text {
+    height: 230px;
+    background-color: black;
+    .wrapper {
+      .section-txt {
+        width: 645px;
+        padding-top: 80px;
+        line-height: 32px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+      }
+    }
+  }
+  .section1 {
+    height: 709px;
+    background: url(../images/pages/product/experience/s1-bg.jpg) no-repeat center -45px;
+    .wrapper {
+      .txt {
+        top: 100px;
+        left: 50%;
+        width: 280px;
+        margin-left: -140px ;
+        text-align: center;
+      }
+    }
+  }
+  .section2 {
+    height: 770px;
+    .skroller{
+      background: url(../images/pages/product/experience/s2-bg.jpg) no-repeat center -115px;
+    }
+    .wrapper {
+      .txt {
+        top: 100px;
+        left: 50%;
+        width: 612px;
+        margin-left: -306px ;
+        text-align: center;
+      }
+    }
+  }
+  #section-text1 {
+    .section-txt {
+      width: 616px;
+    }
+  }
+  .section3 {
+    height: 770px;
+    background: url(../images/pages/product/experience/s3-bg.jpg) no-repeat center -22px;
+    .wrapper {
+      .txt {
+        top: 320px;
+        left: 0;
+      }
+      .img1 {
+        width: 394px;
+        height: 357px;
+        left: 406px;
+        bottom: 0;
+        background: url(../images/pages/product/experience/s3-1.png) no-repeat;
+        z-index: 5;
+      }
+      .img2 {
+        width: 780px;
+        height: 487px;
+        right: 0;
+        top: 102px;
+        background: url(../images/pages/product/experience/s3-2.png) no-repeat;
+        z-index: 4;
+      }
+    }
+  }
+  #section-text2 {
+    .section-txt {
+      width: 658px;
+    }
+  }
+  .section4 {
+    height: 770px;
+    background: url(../images/pages/product/experience/s4-bg.jpg) no-repeat center center;
+    .wrapper {
+      .txt {
+        top: 110px;
+        left: 50%;
+        width: 542px;
+        margin-left: -271px ;
+        text-align: center;
+      }
+      .img1 {
+        width: 654px;
+        height: 235px;
+        z-index: 5;
+        bottom: 0;
+        left: -70px;
+        background: url(../images/pages/product/experience/s4-1.png) no-repeat;
+      }
+      .img2 {
+        width: 871px;
+        height: 484px;
+        left: 147px;
+        bottom: 0;
+        z-index: 4;
+        background: url(../images/pages/product/experience/s4-2.jpg) no-repeat;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,174 @@
+ .tea-service{
+  .service-header{
+    height: 60px; z-index: 2; opacity: 0.9; background-color: #18181a; line-height: 60px;
+    .header-con >span{ font-size: 22px;color: #916f53; }
+    a{
+      float: right; display: inline-block;margin: 0 0 0 34px;text-decoration: none; font-size: 13px;color: #916f53; height: 60px;
+      &:hover,&.active{ border-bottom:3px solid #ccac82; color: #ccac82; }
+    }
+  }
+  .section{
+    position: relative; overflow: hidden; width: 945px;margin: 0 auto;
+    h3,h1{ color: #ccac82;  font-weight: 100; padding-bottom: 50px; }
+    .link-anchor{ opacity: 0; font-size: 0; line-height: 0; position: absolute; top: 0; left: 0; }
+    h3 { font-size: 48px; }
+    h1 { font-size: 24px; }
+    p {
+       letter-spacing: 1px; color: #c8c9c7; font-size: 14px;
+      em{ color: #ccac82; font-style: normal; padding: 30px 0; display: block; font-weight: 900; }
+      i { color: #ccac82; font-style: normal; padding-right: 3px; font-weight: 500;}
+      &.introduce{  font-size: 24px; padding: 30px 0; }
+      span {
+       display: block;
+       padding-top: 10px;
+     }
+    }
+    &.section-1{
+      width: 100%; height: 350px;
+      .full-img{
+        position: absolute;left: 50%;top:50%; margin-top: -175px;margin-left: -710px; width: 1420px; height: 100%;
+        img { display: block; max-width: 100%; margin: 0 auto; }
+      }
+    }
+    &.section-2{
+      .item-wrap{
+        background: url(../images/pages/service/hr.png) no-repeat 0 8px; text-align: center;
+        > a {
+          display: inline-block; color: #916f53; text-decoration: none; padding: 20px 23px 0;
+          background: url(../images/pages/service/point.png) no-repeat center 0;
+          &:hover,&.active{
+            color:#ccac82;
+            background: url(../images/pages/service/point-hover.png) no-repeat center 0;
+          }
+        }
+      }
+    }
+  }
+
+  &.service-deliver{
+    .section{
+      .title{ font-size: 18px; }
+      &.detailed{
+        padding: 75px 0; background: url(../images/pages/service/deliver-hr.png) no-repeat left bottom;
+        p + p{
+          background: url(../images/pages/service/border-bottom.png) no-repeat left top;
+        }
+      }
+    }
+    .section-2{ padding: 75px 0 10px; }
+    .section-3{
+      &.detailed{
+        p,p+p{ background: none !important; }
+      }
+    }
+    .section-4{
+      p{
+        padding-bottom: 40px;
+        &+p{ padding-top: 40px; padding-bottom: 0; }
+      }
+    }
+    .section-6{
+      &.detailed{
+        padding-bottom: 35px;
+      }
+      p{
+        padding-bottom: 40px;
+        &+p{ padding-top: 40px; }
+      }
+      .p1{
+        padding-bottom: 90px;
+        span+span{ padding-top: 25px; }
+      }
+    }
+    .section-7{
+      &.detailed{ padding-bottom: 35px; }
+      p{
+        padding-bottom: 40px;
+        &+p{ padding-top: 40px; }
+      }
+    }
+    .section-8{
+      &.detailed{ padding-bottom: 35px; }
+      p{
+        padding-bottom: 40px;
+        &+p{ padding-top: 40px; }
+      }
+    }
+    .section-10{
+      height: 285px;
+      h3{ width: 100%;text-align: center;     font-weight: 300;}
+      &.detailed{
+        background: none;
+      }
+    }
+  }
+
+  &.afterservice{
+    .section{
+      .title{ font-size: 24px; font-weight: 500;}
+      h3,h1{ padding-bottom: 0; }
+      &.detailed{
+        padding: 50px 0 40px; background: url(../images/pages/service/afterservice-hr.png) no-repeat left bottom;
+        p + p{
+          background: url(../images/pages/service/border-bottom.png) no-repeat left top;
+        }
+        p + p.remove-border{background: none;}
+      }
+    }
+    .section-2{ padding-top: 75px; }
+    .section-3{
+      p{ padding-top: 40px;padding-bottom: 40px; }
+      .p1{ margin-top: 50px; }
+      .process{
+        padding-bottom: 0;
+        span{
+          position: relative; height: 57px; line-height: 57px;
+          float: left; background: #ccac82;    overflow: hidden; padding: 0 20px;
+          font-size: 18px;
+          &+.arrow{ width: 65px;display: block;height: 57px; float: left; background: url(../images/pages/service/arrow.png) no-repeat center center; }
+          label{ font-size: 25px; font-weight: bold; padding-right: 10px; color: #000; float: left; vertical-align: middle; }
+          em{ color: #000; font-style: normal; padding: 0; display: inline-block; font-weight: normal; float: left; vertical-align: middle; }
+          small{
+            font-size: 100%; padding-left: 20px; display: inline-block; float: left; height: 100%;
+            a{
+              font-size: 12px; padding-left: 20px; display: block; height: 50%;
+              color: #000; font-weight: bold;
+              &.tel{ background: url(../images/pages/service/tel.png) no-repeat left 10px; line-height: 37px; }
+              &.time{ background: url(../images/pages/service/time.png) no-repeat left 6px; line-height: 24px; }
+            }
+          }
+        }
+      }
+    }
+    .section-4{
+      p{ padding-top: 40px;padding-bottom: 40px; }
+      h1{ padding: 10px 0 20px; }
+    }
+    .section-5{
+      h3> span{ color: #c8c9c7; font-weight: 500;}
+    }
+    .section-6{
+      p{ padding-top: 40px;padding-bottom: 40px; }
+      h1{ padding: 10px 0 20px; }
+    }
+    .section-7{
+      p{ padding-top: 40px;padding-bottom: 40px; }
+      .title{ padding-top: 30px; }
+      ul{
+        width: 830px; position: relative; left: -20px;
+        li{
+         width: 395px; float: left; margin-left: 20px; background: #29292b; padding: 30px 0; margin-bottom: 10px;
+         border-radius: 12px; text-align: center; font-size: 18px;color:#c8c9c7;
+         > h1{ padding: 10px 0;     font-weight: 900;}
+       }
+      }
+    }
+    .section-8{
+      p{ padding-top: 40px;padding-bottom: 40px; }
+      &.detailed{
+        background: none;
+      }
+    }
+  }
+  .tea-footer{ margin-top: 80px; }
+ }

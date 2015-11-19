@@ -1,0 +1,48 @@
+ .tea-business{
+  .section{
+    overflow: hidden; position: relative; z-index: 1; width: 1420px; height: 922px;
+    .full-img{
+      position: absolute;left: 50%;top:50%; margin-top: -385px;margin-left: -710px; width: 1420px;
+      img{ display: block; max-width: 100%; margin: 0 auto; position: relative; }
+    }
+    .section-detailed{
+      h3{
+       color: #c4a57d; font-weight: 500; position: absolute; font-size: 40px;
+       span { font-size: 32px; font-weight: 300; display: block; }
+      }
+      > p {position: absolute; color: #fff;font-size: 16px; left: 130px;bottom: 30px; line-height: 26px; }
+    }
+  }
+  .section-1{
+    .full-img{
+      /*margin-top: -0px;*/
+    }
+    .section-detailed{
+      h3{top: 182px;left: 519px;}
+    }
+  }
+  .section-2{
+    margin-top: -180px;
+    .section-detailed{
+      h3{ top: 183px; left: 130px; }
+    }
+  }
+  .section-3{
+    .section-detailed{
+      h3{ top: 640px; left: 138px; }
+    }
+  }
+  .section-4{
+    .section-detailed{
+      h3{ top: 620px; left: 140px; }
+    }
+  }
+  .section-5{
+    height: 1050px;
+    .section-detailed{
+      h3{ top: 320px; left: 130px; }
+      p{bottom:95px;}
+    }
+  }
+  .tea-footer{ margin-top: 130px; }
+ }

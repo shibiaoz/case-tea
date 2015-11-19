@@ -1,0 +1,269 @@
+.tea-index {
+  .tea-main {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding-top: 79px;
+    .menu-wrap {
+      position: absolute;
+      top: 275px;
+      right: 105px;
+      height: 100px;
+      width: 35px;
+      z-index: 200;
+      .direction {
+        width: 100%;
+        height: 10px;
+        i{
+          height: 100%;
+          width: 100%;
+        }
+        &.up i{
+          background-position: -37px -21px;
+        }
+        &.down i{
+          background-position: -37px -109px;
+        }
+      }
+      .pagination{
+        > span {
+          width: 100%;
+          height: 22px;
+          position: relative;
+        }
+        .swiper-pagination-switch{
+          background-position: -37px -30px;
+        }
+        .swiper-active-switch{
+          background-position: -37px -85px;
+        }
+      }
+      .pagination > span,
+      .direction > i{
+        background: url(../images/pages/index/menu-wrap.png) no-repeat;
+        cursor: pointer;
+        display: block;
+      }
+
+    }
+
+    .swiper-container{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 720px;
+      .swiper-wrapper{
+        position: absolute;
+        width: 100%;
+        transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+        -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+        -moz-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+        -ms-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+        -o-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+      }
+    }
+    .section {
+      position: relative;
+      height: 730px;
+      .section-detailed {
+        z-index: 2;
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        h3 {
+          font-size: 48px;
+          color: #ccac82;
+          font-weight: 500;
+          font-family: Microsoft Yahei;
+        }
+        p {
+          font-size: 32px;
+          color: #916f53;
+          font-family: Microsoft Yahei;
+          margin-top: 5px;
+        }
+      }
+    }
+    .section-1{
+      background: url(../images/pages/index/banner-1.jpg) no-repeat;
+      background-position: center -100px;
+      .section-detailed {
+        top: 30px;
+      }
+    }
+    .section-2{
+      background: url(../images/pages/index/banner-2.jpg) no-repeat center center;
+      background-position: center -80px;
+      .section-detailed {
+        top: 30px;
+      }
+    }
+    .section-3 {
+      background: url(../images/pages/index/banner-3.jpg) no-repeat;
+      background-position: center -130px;
+      .section-detailed {
+        top: 150px;
+        margin-left: 73px;
+        text-align: left;
+      }
+    }
+    .section-4 {
+      background: url(../images/pages/index/banner-4.jpg) no-repeat center center;
+      background-position: center -130px;
+      .section-detailed {
+        top: 20px;
+      }
+    }
+    .section-5 {
+      height: 465px;
+      padding: 60px 0 133px;
+      .section-inner {
+        border-top: 1px solid #1b1614;
+        padding-top: 30px;
+        width: 1280px;
+        margin: 0 auto;
+      }
+      .small-images-detailed {
+        height: 240px;
+        width: 100%;
+        li {
+          height: 240px;
+          background: #1a1a1b;
+          position: relative;
+          float: left;
+          width: 422px;
+          overflow: hidden;
+          display: block;
+          > a {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+          .section-detailed {
+            top: 25px;
+          }
+          h3 {
+            font-size: 20px;
+            color: #ccac82;
+          }
+          p {
+            font-size: 14px;
+            color: #916f53;
+            margin-top: 3px;
+
+            span{
+              padding-right: 20px;
+              height: 18px;
+              display: inline-block;
+              background: url(../images/pages/index/icon.png) no-repeat right 4px;
+            }
+          }
+          > a:hover {
+            p{
+              color: #ccac82;
+
+              span{
+                background-position: right -12px;
+              }
+            }
+          }
+          .detailed-img {
+            margin-left: -211px;
+            margin-top: -120px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            z-index: 1;
+          }
+          + li {
+            margin-left: 7px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+  .tea-index .tea-main{
+    .menu-wrap {
+      .direction {
+        &.up i{
+          background: url(../images/pages/index/menu-wrap/direction-up.png) no-repeat;
+          background-position: 9px 0;
+          background-size: 16px 10px
+        }
+        &.down i{
+          background: url(../images/pages/index/menu-wrap/direction-down.png) no-repeat;
+          background-position: 9px 0;
+          background-size: 16px 10px
+        }
+      }
+      .pagination{
+        .swiper-pagination-switch{
+          background: url(../images/pages/index/menu-wrap/pagination.png) no-repeat 0 8px;
+          background-size: 35px 4px;
+        }
+        .swiper-active-switch{
+          background: url(../images/pages/index/menu-wrap/active.png) no-repeat 0 8px;
+          background-size: 35px 7px;
+        }
+      }
+    }
+
+    .section-5 .small-images-detailed li{
+       a{
+         p span{
+          background: url(../images/pages/index/icon2.png) no-repeat scroll center right;
+          background-size: 8px 14px;
+         }
+         &:hover{
+          p span{
+            background: url(../images/pages/index/icon2-hover.png) no-repeat scroll center right;
+            background-size: 8px 14px;
+          }
+         }
+       }
+    }
+  }
+}
+
+@media screen and (min-height: 700px){
+  .tea-index .tea-main{
+    .section-1{
+        background-position: center center;
+        .section-detailed {
+          top: 120px;
+        }
+    }
+    .section-2{
+      background-position: center center;
+      .section-detailed {
+        top: 100px;
+      }
+    }
+    .section-3 {
+      background-position: center center;
+      .section-detailed {
+        top: 300px;
+      }
+    }
+    .section-4 {
+      background-position: center center;
+      .section-detailed {
+        top: 90px;
+      }
+    }
+  }
+}

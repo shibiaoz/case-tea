@@ -1,0 +1,52 @@
+/* Reset */
+*{ box-sizing: border-box; }
+body { font-family:"微软雅黑", Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif; background-color: #000; color: #FFF; overflow-x: hidden; font-size: 12px; }
+h1, h2, h3, p, ul { margin: 0; padding: 0; }
+li { list-style: none; }
+a, input { outline: none; }
+
+/* Common */
+.wrapper { width: 1220px; margin: 0 auto; height: 100%; position: relative;}
+.tea-main{ min-height: 200px; }
+
+/* 吸顶 */
+.body{
+  min-width: 1280px;
+  max-width: 1420px;
+  margin: 0 auto;
+  position: relative;
+  &.headroom{
+    padding-top: 79px;
+  }
+}
+#header-nav , .tea-header{
+  &.headroom {
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+    max-width: 1420px;
+    min-width: 1280px;
+    top: 0;
+  }
+  .header-con .member  { background: url(../images/lib/header-footer/dot-down.png) no-repeat right -23px;padding-right: 20px; }
+  .header-con .member:hover,.header-con .member.active{background-position:right 20px }
+  .header-con i.number{font-style: normal;padding: 4px; border-radius: 4px; background: #353535; color: #ccac82; line-height: 12px; margin: 18px 0 0 15px }
+  .header-con .cart_list_hover img{margin-top: 20px;}
+}
+
+/* UI-form */
+.ui-form .ui-input{ border: 1px solid #916f53; color: #5b4432; font-size: 16px; height: 38px; line-height: 38px; display: block; background-color: transparent; margin-bottom: 20px; padding: 0 12px; width: 100%; }
+.ui-form .ui-input::-webkit-input-placeholder{ color: #5b4432; }
+.ui-form .ui-input:-moz-placeholder{ color: #5b4432; }
+.ui-form .ui-input::-moz-placeholder{ color: #5b4432; }
+.ui-form .ui-input:-ms-input-placeholder{ color: #5b4432; }
+/* ui-btn */
+.ui-btn{ border: 1px solid #916f53; width: 172px; height: 41px; color: #916f53; text-align: center; line-height: 41px; text-decoration: none; display: inline-block; font-size: 16px; }
+.ui-btn:hover { background-color: #916f53; color: #2d2522; border-color: #916f53; }
+
+
+/* 微信弹层 */
+.bg-marker{display:none;position: fixed;width:100%;height:100%;background: #000;opacity: 0.8;top:0px;left:0px;z-index: 99999;}
+.weixin-layout{display:none;position: fixed;width:900px;height:531px;border:3px solid #c4a57d;background: #000;top:50%;left:50%;margin-left:-450px;margin-top:-265px;text-align: center;z-index: 99999;}
+.weixin-layout .title{font-size:24px;color:#a7896f;padding:75px 62px 17px;border-bottom:1px solid #2d2522;}
+.weixin-layout img{margin:66px auto 54px;display: block;}

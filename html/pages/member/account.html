@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0"/>
+    <title>个人安全设置 | 小罐茶</title>
+    <link rel="stylesheet" href="../../../pc/css/main.min.css">
+    <link rel="stylesheet" href="../../../pc/css/pages/member.css">
+    <script src="../../../pc/js/lib/jquery.min.js"></script>
+    <script src="../../../pc/js/path.js"></script>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?21a1e507bda6a659448c2ec17457efec";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+</head>
+<body class="tea-member tea-great">
+
+  <div class="body">
+    <script src="../../../pc/js/inc/tea-header.js" data-target="5" id="header-inc"></script>
+
+    <!-- Main -->
+    <div class="tea-main rel">
+      <div id="header-nav" class="person-header">
+        <div class="header-con wrapper">
+          <span>在线商城</span>
+          <i class="number fr">10</i>
+          <a href="javascript:;" class='cart_list_hover'><img src="../../../pc/images/pages/shop/cart.png" alt="" ></a>
+          <a href="javascript:;">在线咨询</a>
+          <a href="../shop/store.html">查找零售店</a>
+        </div>
+      </div>
+      <div class="account">
+        <div class="head">账户信息</div>
+        <hr class="weight"></hr>
+
+        <div class="item-box">
+          <div class="item">
+            <div class="title">登录密码</div>
+            <div class="info">互联网账号存在被盗风险，建议您定期更改密码以保护账户安全。</div>
+            <a href="javascript:void(0);" class="ui-btn" id="changePassword">修改</a>
+          </div>
+          <div class="item">
+            <div class="title">邮箱验证</div>
+            <div class="info">未验证邮箱，请访问您注册时填写的邮箱 82****75@qq.com，查看激活邮件，并验证。</div>
+            <a href="javascript:void(0);" class="ui-btn show-validation" >修改</a>
+          </div>
+          <div class="item">
+            <div class="title">手机验证</div>
+            <div class="info">您验证的手机：+86 135*****185</div>
+            <a href="javascript:void(0);" class="ui-btn show-validation">修改</a>
+          </div>
+        </div>
+      </div>
+
+        <div id="cart_list">
+            <ul class="clearfix">
+                <li>
+                    <img src="../../../pc/images/pages/shop/temp_li.png" alt="">
+                    <div class="left">
+                        <div class="name">金骏眉</div>
+                        <div class="info">RMB 1,000&nbsp;&nbsp;&nbsp;数量&nbsp;&nbsp;1</div>
+                    </div>
+                    <a class="right" href="#">删除</a>
+                </li>
+                <li>
+                    <img src="../../../pc/images/pages/shop/temp_li.png" alt="">
+                    <div class="left">
+                        <div class="name">金骏眉</div>
+                        <div class="info">RMB 1,000&nbsp;&nbsp;&nbsp;数量&nbsp;&nbsp;1</div>
+                    </div>
+                    <a class="right" href="#">删除</a>
+                </li>
+                <li>
+                    <img src="../../../pc/images/pages/shop/temp_li.png" alt="">
+                    <div class="left">
+                        <div class="name">金骏眉</div>
+                        <div class="info">RMB 1,000&nbsp;&nbsp;&nbsp;数量&nbsp;&nbsp;1</div>
+                    </div>
+                    <a class="right" href="#">删除</a>
+                </li>
+            </ul>
+            <hr/>
+            <a id="to_cart" href="./shopping_cart.html">进入购入车</a>
+        </div>
+    </div>
+    <!-- 修改密码第一步 -->
+    <div class="change-password dialog-box cp-step1">
+      <div class="dialog-body">
+       <div class="title">修改密码</div>
+       <form action="" class="form-inline ui-form">
+         <div class="form-group">
+             <input class="ui-input" type="text" name="address" placeholder="旧密码">
+         </div>
+         <div class="form-group">
+             <input class="ui-input" type="text" name="address" placeholder="新密码">
+         </div>
+         <div class="form-group">
+             <input class="ui-input" type="text" name="address" placeholder="重复新密码">
+         </div>
+         <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">取消</a>
+             <input type="submit" class="ui-btn save" value="确定更改密码"></input>
+         </div>
+       </form>
+      </div>
+    </div>
+    <!-- 修改密码第二步 -->
+    <div class="change-password dialog-box cp-step2" >
+      <div class="dialog-body">
+       <div class="title">您的密码已重置成功</div>
+
+         <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">返回</a>
+         </div>
+
+      </div>
+    </div>
+    <!-- 手机邮箱验证 -->
+    <div class="phone-validation dialog-box pv-step1">
+      <div class="dialog-body">
+       <div class="title">安全验证</div>
+       <form action="" class="form-inline ui-form">
+         <div class="form-group">
+            <label><input type="radio" name="phone" checked class="ui-radio-large">通过手机短信验证身份</label>
+          </div>
+          <div class="form-group mt20">
+            <label><input type="radio" name="phone" class="ui-radio-large">通过邮箱验证身份</label>
+          </div>
+
+         <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">取消</a>
+             <a href="javascript:void(0);" class="ui-btn next">下一步</a>
+         </div>
+       </form>
+      </div>
+    </div>
+    <!-- 手机验证步骤2 -->
+    <div class="phone-validation dialog-box pv-step2"  >
+      <div class="dialog-body">
+       <div class="title">安全验证</div>
+       <form action="" class="form-inline ui-form">
+        <div class="form-group input-befor">
+             <input class="ui-input" type="text" name="phone" placeholder="手机号"><span>+86</span>
+         </div>
+         <div class="form-group">
+             <a href="javascript:void(0);" class="ui-btn close one">重新发送</a>
+             <input class="ui-input two" type="text" name="address" placeholder="验证码">
+             <span id="countdown">59秒</span>
+         </div>
+         <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">取消</a>
+             <a href="javascript:void(0);" class="ui-btn next">下一步</a>
+         </div>
+       </form>
+      </div>
+    </div>
+
+    <!-- 手机验证步骤3 -->
+    <div class="phone-validation dialog-box pv-step3" >
+      <div class="dialog-body">
+       <div class="title">修改手机</div>
+         <form action="" class="form-inline ui-form">
+         <div class="form-group input-befor">
+             <input class="ui-input" type="text" name="phone" placeholder="请输入您需要更换的手机号码"> <span >+86</span>
+         </div>
+
+         <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">取消</a>
+             <a href="javascript:void(0);" class="ui-btn next">下一步</a>
+         </div>
+        </form>
+       </div>
+    </div>
+
+    <!-- 手机验证步骤2 -->
+    <div class="phone-validation dialog-box pv-step4"  >
+      <div class="dialog-body">
+       <div class="title">安全验证</div>
+       <form action="" class="form-inline ui-form">
+        <div class="form-group input-befor">
+             <input class="ui-input" type="text" name="phone" placeholder="手机号"><span>+86</span>
+         </div>
+         <div class="form-group">
+             <a href="javascript:void(0);" class="ui-btn close one">重新发送</a>
+             <input class="ui-input two" type="text" name="address" placeholder="验证码">
+             <span id="countdown">59秒</span>
+         </div>
+         <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">取消</a>
+             <a href="javascript:void(0);" class="ui-btn next">下一步</a>
+         </div>
+       </form>
+      </div>
+    </div>
+
+    <!-- 手机验证步骤4 -->
+    <div class="phone-validation dialog-box pv-step5" >
+      <div class="dialog-body">
+       <div class="title">您的手机号码已经修改成功。</div>
+       <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">返回</a>
+         </div>
+      </div>
+    </div>
+
+    <!-- 邮箱验证步骤2 -->
+    <div class="email-validation dialog-box ev-step2" >
+      <div class="dialog-body">
+       <div class="title">安全验证</div>
+       <p>我们已经向您的邮箱发送了一封验证邮件</p>
+       <div class="border-b btns pb20"><a href="javascript:void(0);" class="ui-btn next">查看我的邮箱</a></div>
+       <p>如果没有收到邮件，请检查垃圾邮件，或者点击下方按钮重新发送</p>
+       <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">取消</a>
+             <a href="javascript:void(0);" class="ui-btn next">重新发送邮件</a>
+         </div>
+      </div>
+    </div>
+
+    <!-- 邮箱验证步骤3 -->
+    <div class="email-validation dialog-box ev-step3" >
+      <div class="dialog-body">
+       <div class="title">修改邮箱</div>
+         <form action="" class="form-inline ui-form">
+         <div class="form-group">
+             <input class="ui-input" type="text" name="address" placeholder="请输入您需要更换的邮箱地址">
+         </div>
+
+         <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">取消</a>
+             <a href="javascript:void(0);" class="ui-btn next">下一步</a>
+         </div>
+        </form>
+       </div>
+    </div>
+
+    <!-- 邮箱验证步骤4 -->
+    <div class="email-validation dialog-box ev-step4" >
+      <div class="dialog-body">
+       <div class="title">安全验证</div>
+       <p>我们已经向您的邮箱发送了一封验证邮件</p>
+       <div class="border-b btns pb20"><a href="" class="ui-btn next">查看我的邮箱</a></div>
+       <p>如果没有收到邮件，请检查垃圾邮件，或者点击下方按钮重新发送</p>
+       <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">取消</a>
+             <a href="javascript:void(0);" class="ui-btn next">重新发送邮件</a>
+         </div>
+      </div>
+    </div>
+
+    <!-- 邮箱验证步骤5 -->
+    <div class="email-validation dialog-box ev-step5" >
+      <div class="dialog-body">
+       <div class="title">您的邮箱已经激活成功。</div>
+       <div class="btns">
+             <a href="javascript:void(0);" class="ui-btn close">返回</a>
+         </div>
+      </div>
+    </div>
+
+    <div class="bg"></div>
+    <script src="../../../pc/js/inc/tea-footer.js" id="footer-inc"></script>
+  </div>
+  <script src="../../../pc/js/lib/TweenMax.js"></script>
+  <script src="../../../pc/js/lib/jquery.placeholder.min.js"></script>
+  <script src="../../../pc/js/lib/jquery.selectBox.js"></script>
+  <script src="../../../pc/js/lib/jquery.mCustomScrollbar.js"></script>
+  <script src="../../../pc/js/common.js"></script>
+  <script src="../../../pc/js/pages/member.js"></script>
+</body>
+</html>

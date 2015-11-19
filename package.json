@@ -1,0 +1,24 @@
+{
+  "name": "Tea",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.0",
+    "css-mqpacker": "^3.1.0",
+    "csswring": "^3.0.5",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^5.1.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-watch": "^4.2.4",
+    "postcss": "^4.1.12",
+    "postcss-import": "^5.2.2",
+    "postcss-nested": "^0.3.2",
+    "postcss-opacity": "^2.0.0",
+    "postcss-reporter": "^0.3.1",
+    "postcss-simple-vars": "^0.3.0"
+  }
+}

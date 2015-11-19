@@ -1,0 +1,4358 @@
+.tea-product {
+  /* 导航 */
+  .product-nav {
+    height: 61px;
+    border-bottom: 1px solid #36383a;
+    background-color: #1f1d1e;
+    opacity: .9;
+    .wrapper{
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      > span.title{ float: left; line-height: 60px; font-size: 16px;color: #916f53; margin: 0; text-align: left; }
+    }
+    .buy {
+      color: #916f53;
+      font-size: 14px;
+      border: 1px solid #916f53;
+      text-decoration: none;
+      float: right;
+      width: 138px;
+      height: 32px;
+      line-height: 32px;
+      text-align: center;
+      margin-top: 13px;
+      margin-left: 40px;
+      &:hover{
+        background-color: #ccac82;
+        color: #2d2522;
+        border-color: #ccac82;
+      }
+    }
+    .links{
+      height: 100%;
+      a{
+        display: inline-block;
+        line-height: 57px;
+        color: #916f53;
+        font-size: 13px;
+        text-decoration: none;
+        margin: 0 12px;
+        &.last{
+          margin-right: 0;
+        }
+        &:hover,
+        &.active{
+          border-bottom: 3px solid #ccac82;
+          color: #ccac82;
+        }
+      }
+    }
+  }
+
+  /* Common */
+  .sections{
+    margin: 0 auto;
+    .skroller{
+      position: relative;
+      height: 100%;
+    }
+    .text{
+      position: absolute;
+      top: 90px;
+      width: 500px;
+      left: 50%;
+      margin-left: -250px;
+      color: #ccac82;
+      line-height: 50px;
+      text-align: center;
+    }
+    .tt{
+        position: absolute;
+        bottom: 0px;
+        width: 500px;
+        left: 50%;
+        margin-left: -250px;
+        color: #ccac82;
+        line-height: 50px;
+        text-align: center;
+    }
+    .tt .t1{
+        font-size: 13px;
+        color: #916f53;
+    }
+    .t1{
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      font-size: 40px;
+      font-weight: 500;
+    }
+    .t2{
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      font-size: 30px;
+      color: #fff;
+    }
+    .btn{
+      width: 172px;
+      height: 40px;
+      color: #916f53;
+      font-size: 16px;
+      text-align: center;
+      line-height: 40px;
+      text-decoration: none;
+      border: 1px solid #916f53;
+      display: inline-block;
+      &:hover{
+        color: #2d2522;
+        background-color: #916f53;
+      }
+    }
+  }
+
+  &.product-index{
+    .tea-header .nav .nav-item .nav-wrap-product.product{ display: block; }
+  }
+
+  /* 首页 */
+  .index{
+    .content{
+      position: absolute;
+      color: #fff;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 60px;
+      .t1{
+        font-size: 52px;
+        /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      }
+      .t2{
+        font-size: 30px;
+      }
+      .more{
+        font-size: 16px;
+        color: #fff;
+        display: inline-block;
+        border: 1px solid #999c9d;
+        width: 172px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 45px;
+        &:hover{
+          background-color: #999c9d;
+          color: #2d2522;
+        }
+      }
+    }
+    .title{
+      font-size: 34px;
+      color: #ccac82;
+      text-align: center;
+      margin: 70px 0 40px;
+    }
+    .desc{
+      width: 720px;
+      margin: 0 auto;
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      line-height: 30px;
+    }
+    .icon{
+      margin: 60px 0 100px;
+      height: 80px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: block;
+      &.icon1{
+        background-image: url(../images/pages/product/index/icon1.png);
+      }
+      &.icon2{
+        background-image: url(../images/pages/product/index/icon2.png);
+      }
+      &.icon3{
+        background-image: url(../images/pages/product/index/icon3.png);
+      }
+      &.icon4{
+        background-image: url(../images/pages/product/index/icon4.png);
+      }
+    }
+
+    .section1{
+      background: url(../images/pages/product/index/s1-bg.jpg) no-repeat center center #000;
+      height: 701px;
+      .go{
+        color: #c8c9c7;
+        font-size: 16px;
+        position: absolute;
+        left: 50%;
+        bottom: 90px;
+        width: 100px;
+        height: 70px;
+        margin-left: -50px;
+        text-decoration: none;
+        text-align: center;
+        i{
+          background: url(../images/pages/product/index/go.png) no-repeat;
+          position: absolute;
+          width: 38px;
+          height: 20px;
+          bottom: 0;
+          left: 50%;
+          margin-left: -19px;
+          animation: slide 1s ease-out infinite;
+        }
+
+        &:hover{
+          color: #ccac82;
+          i{
+            background-position: -162px 0;
+          }
+        }
+      }
+
+    }
+    .section2{
+      height: 720px;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+      .wrapper{
+        width: 1420px; position: relative; left: 50%;margin-left: -710px;
+      }
+
+      .prev-slide{
+        width: 22px;
+        height: 46px;
+        position: absolute;
+        top: 50%;
+        margin-top: -11px;
+        left: 100px;
+        background: url(../images/pages/product/index/control.png) no-repeat left 0;
+        z-index: 9999;
+        &:hover{
+          background-position: -63px 0;
+        }
+      }
+      .next-slide{
+        width: 22px;
+        height: 46px;
+        position: absolute;
+        top: 50%;
+        margin-top: -11px;
+        right: 100px;
+        background: url(../images/pages/product/index/control.png) no-repeat right 0;
+        z-index: 9999;
+        &:hover{
+          background-position: -233px 0;
+        }
+      }
+
+      @media screen and (max-width: 1280px){
+        .prev{ left: 150px; }
+        .next{ right: 150px; }
+      }
+
+      .bx-pager{
+        bottom: 40px;
+      }
+
+      .bx-wrapper{
+        border: none!important;
+        box-shadow: none!important;
+        background-color: #000!important;
+        margin-bottom: 0;
+        .bx-loading{
+          background-color: #000!important;
+        }
+      }
+      .bx-viewport{
+        position: absolute;
+        left: 50%;
+        margin-left: -710px;
+      }
+      .bx-pager-link{
+        width: 14px;
+        height: 14px;
+        background: url(../images/pages/product/index/point.png) no-repeat -34px 0;
+        margin: 0 10px;
+        &.active, &:hover{
+          background-position: 0 0;
+        }
+      }
+    }
+    .section3{
+      height: 593px;
+      .title{
+        font-size: 48px;
+        color: #ccac82;
+        /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+        padding: 60px 0;
+        text-align: center;
+      }
+
+      .items{
+        width: 1420px;
+        position: absolute;
+        left: 50%;
+        margin-left: -710px;
+        text-align: center;
+        padding: 60px 0 50px 0;
+        > div{
+          display: inline-block;
+          height: 250px;
+          width: 170px;
+          background-repeat: no-repeat;
+          background-position: center top;
+          padding-top: 225px;
+          margin: 0 53px;
+        }
+        span{
+          /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+          font-size: 16px;
+          color: #916f53;
+        }
+      }
+      .item1{
+        background-image: url(../images/pages/product/index/item1.png);
+      }
+      .item2{
+        background-image: url(../images/pages/product/index/item2.png);
+      }
+      .item3{
+        background-image: url(../images/pages/product/index/item3.png);
+      }
+      .item4{
+        background-image: url(../images/pages/product/index/item4.png);
+      }
+    }
+    .section4{
+      height: 846px;
+      .skroller{
+        background: url(../images/pages/product/index/s4-bg.jpg) no-repeat center 0px #000;
+      }
+      .content{
+        top: 290px;
+        left: 0;
+        >.t1{ font-weight: 300; }
+        >.t2{ font-weight: 500; }
+      }
+    }
+    .section6{
+      height: 846px;
+      .skroller{
+        background: url(../images/pages/product/index/s6-bg.jpg) no-repeat center 0px #000;
+      }
+      .content{
+        top: 260px;
+        right: 0;
+        >.t1{ font-weight: 300;}
+        >.t2{ font-weight: 500; }
+      }
+    }
+    .section8{
+      height: 846px;
+      .skroller{
+        background: url(../images/pages/product/index/s8-bg.jpg) no-repeat center 0px #000;
+      }
+      .content{
+        top: 270px;
+        left: 80px;
+         >.t1{ font-weight: 300; }
+        >.t2{ font-weight: 500; }
+      }
+    }
+    .section10{
+      background: url(../images/pages/product/index/s10-bg.jpg) no-repeat center 0px #000;
+      height: 846px;
+      .content{
+        top: 80px;
+        left: 50%;
+        margin-left: -130px;
+        text-align: center;
+        width: 260px;
+        > p {  width: 100%;}
+        >.t1{ font-weight: 300; position: relative; left: -2px; }
+        >.t2{  }
+      }
+    }
+
+    .testing{
+      margin-top: 100px;
+      border-top: 1px solid #2d2522;
+      padding-top: 60px;
+      padding-bottom: 130px;
+
+      .head{
+        font-size: 48px;
+        color: #ccac82;
+        text-align: center;
+        padding-bottom: 60px;
+      }
+
+      .items{
+        width: 1025px;
+        margin: 0 auto;
+        >.item{ padding-bottom: 10px; }
+        h3{
+          cursor: pointer;
+          /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+          height: 60px;
+          line-height: 60px;
+          text-align: center;
+          border-radius: 8px;
+          background-color: #171718;
+          color: #8f9199;
+          font-size: 20px;
+          font-weight: 100;
+        }
+
+        .answer{
+          height: 400px;
+          display: none;
+          padding: 50px 0;
+        }
+
+
+
+        .options{
+          text-align: center;
+          margin-bottom: 80px;
+          li{
+            display: inline-block;
+            position: relative;
+            width: 100px;
+            cursor: pointer;
+            margin: 0 25px;
+            &:hover .radio{
+              background-position: center -53px;
+            }
+            &.active .radio{
+              background-position: center -106px;
+            }
+          }
+          .name{
+            margin-bottom: 30px;
+            font-size: 16px;
+            color: #8f9199;
+            text-align: center;
+          }
+          .radio{
+            background: url(../images/pages/product/index/test/radio.png) no-repeat center 0;
+            height: 28px;
+          }
+        }
+
+        /* 看看哪一款小罐茶适合你？ */
+        .type{
+          .img{
+            background: url(../images/pages/product/index/test/type.png) no-repeat;
+            height: 60px;
+            margin-bottom: 30px;
+            &.t1{
+              background-position: 20px 0;
+            }
+            &.t2{
+              background-position: -122px 0;
+            }
+            &.t3{
+              background-position: -266px 0;
+            }
+            &.t4{
+              background-position: -411px 0;
+            }
+            &.t5{
+              background-position: -556px 0;
+            }
+            &.t6{
+              background-position: -698px 0;
+            }
+          }
+        }
+
+        /* 你的个人体质是哪一种？ */
+        .const{
+          .img{
+            background: url(../images/pages/product/index/test/const.png) no-repeat;
+            height: 82px;
+            margin-bottom: 20px;
+            &.c1{
+              background-position: 22px 0;
+            }
+            &.c2{
+              background-position: -166px 0;
+            }
+            &.c3{
+              background-position: -353px 0;
+            }
+            &.c4{
+              background-position: -542px 0;
+            }
+          }
+        }
+
+        /* 你喝茶的季节是？ */
+        .season{
+          .img{
+            background: url(../images/pages/product/index/test/season.png) no-repeat;
+            height: 82px;
+            margin-bottom: 20px;
+            &.s1{
+              background-position: 20px center;
+            }
+            &.s2{
+              background-position: -169px center;
+            }
+            &.s3{
+              background-position: -355px center;
+            }
+            &.s4{
+              background-position: -544px center;
+            }
+          }
+        }
+
+        /* 你喝茶的时间是？ */
+        .time{
+          .img{
+            background: url(../images/pages/product/index/test/time.png) no-repeat;
+            height: 82px;
+            margin-bottom: 20px;
+            &.m1{
+              background-position: 17px center;
+            }
+            &.m2{
+              background-position: -172px center;
+            }
+            &.m3{
+              background-position: -356px center;
+            }
+          }
+        }
+      }
+
+      .results{
+        padding-left: 0.5px;
+        display: none;
+        .btn{
+          margin: 0 40px;
+        }
+      }
+
+      .tea-list{
+        padding-top: 45px;
+        li{
+          display: none;
+          padding: 20px;
+          position: relative;
+          float: left;
+          width: 400px;
+          height: 900px;
+          margin-right: 9px;
+          margin-bottom: 9px;
+          background-color: #171718;
+          border-radius: 10px;
+
+          &.center{
+            margin-left: 430px;
+          }
+          &.two-center{
+            margin-left: 205px;
+          }
+          &.last-center{
+            margin-left: 409px;
+          }
+        }
+
+        .img{
+          height: 320px;
+          padding-top: 250px;
+          background-position: center center;
+          background-repeat: no-repeat;
+          &.lj{
+            background-image: url(../images/pages/product/index/test/lj.png);
+          }
+          &.mf{
+            background-image: url(../images/pages/product/index/test/mf.png);
+          }
+          &.hp{
+            background-image: url(../images/pages/product/index/test/hp.png);
+          }
+          &.tgy{
+            background-image: url(../images/pages/product/index/test/tgy.png);
+          }
+          &.tgy-1{
+            background-image: url(../images/pages/product/index/test/tgy-1.png);
+          }
+          &.jm{
+            background-image: url(../images/pages/product/index/test/jm.png);
+          }
+          &.zh{
+            background-image: url(../images/pages/product/index/test/zh.png);
+          }
+          &.pr{
+            background-image: url(../images/pages/product/index/test/pr.png);
+          }
+          &.pr-1{
+            background-image: url(../images/pages/product/index/test/pr-1.png);
+          }
+          &.ml{
+            background-image: url(../images/pages/product/index/test/ml.png);
+          }
+          &.bc{
+            background-image: url(../images/pages/product/index/test/bc.png);
+          }
+          span{
+            display: block;
+            text-align: center;
+            font-size: 26px;
+            color: #c4a57d;
+          }
+        }
+
+        .info{
+          background: url(../images/pages/product/index/test/ri-item.png) no-repeat center center;
+          height: 417px;
+          margin-bottom: 35px;
+          font-size: 13px;
+          color: #8f9199;
+          line-height: 20px;
+          > div{
+            position: absolute;
+            overflow: hidden;
+          }
+        }
+
+        .key{
+          color: #65676c;
+          /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+        }
+
+        .value{
+          /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+        }
+
+        .l1{
+          width: 110px;
+          top: 17px;
+          left: 65px;
+        }
+
+        .l2{
+          width: 120px;
+          top: 17px;
+          left: 250px;
+        }
+
+        .l3{
+          width: 110px;
+          top: 86px;
+          left: 65px;
+        }
+
+        .l4{
+          width: 120px;
+          top: 86px;
+          left: 250px;
+        }
+
+        .l5{
+          width: 55px;
+          top: 155px;
+          left: 65px;
+        }
+
+        .l6{
+          width: 55px;
+          top: 155px;
+          left: 183px;
+        }
+
+        .l7{
+          width: 55px;
+          top: 155px;
+          left: 315px;
+        }
+
+        .l8{
+          width: 120px;
+          top: 225px;
+          left: 65px;
+        }
+
+        .l9{
+          width: 140px;
+          top: 225px;
+          left: 230px;
+        }
+
+        .l10{
+          width: 260px;
+          top: 292px;
+          left: 110px;
+        }
+
+        .l11{
+          width: 260px;
+          top: 361px;
+          left: 110px;
+        }
+
+        .l12{
+          width: 260px;
+          top: 431px;
+          left: 110px;
+        }
+
+        .l13{
+          width: 120px;
+          top: 500px;
+          left: 65px;
+        }
+
+        .l14{
+          width: 120px;
+          top: 500px;
+          left: 250px;
+        }
+
+        .star{
+          background: url(../images/pages/product/index/test/star.png) no-repeat;
+          height: 9px;
+          display: block;
+          margin-top: 5px;
+        }
+
+        .star1{
+          width: 10px;
+        }
+        .star2{
+          width: 22px;
+        }
+        .star3{
+          width: 34px;
+        }
+        .star4{
+          width: 45px;
+        }
+        .star5{
+          width: 55px;
+        }
+
+        .btn{
+          margin: 0;
+        }
+        .more{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  /* 包装 */
+  .packing {
+    .section1{
+      background: url(../images/pages/product/packing/s1-bg.jpg) no-repeat bottom center;
+      height: 710px;
+      .text{
+          top: 80px;
+          width: 100%;
+          left: 0;
+          margin-left: 0;
+      }
+      .t1{
+        font-weight: normal;
+        /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      }
+      .guan{
+        background: url(../images/pages/product/packing/guan.png) no-repeat;
+        height: 627px;
+        width: 100%;
+        position: absolute;
+        bottom: -120px;
+      }
+      .cha{
+        background: url(../images/pages/product/packing/cha.png) no-repeat;
+        position: absolute;
+        width: 330px;
+        height: 98px;
+        bottom: 15px;
+        left: 50%;
+        margin-left: -60px;
+      }
+    }
+    .section2{
+      height: 1005px;
+      .skroller{
+        background: url(../images/pages/product/packing/s2-bg.jpg) no-repeat center -15px;
+      }
+    }
+    .section3{
+      height: 1005px;
+      .skroller{
+        background: url(../images/pages/product/packing/s3-bg.jpg) no-repeat center -35px;
+      }
+      .text{
+        top: 310px;
+      }
+    }
+    .section4{
+      height: 975px;
+      .skroller{
+        background: url(../images/pages/product/packing/s4-bg.jpg) no-repeat center -15px;
+      }
+      .text{
+        text-align: left;
+        top: 350px;
+        margin-left: 340px;
+      }
+    }
+    .section5{
+      height: 960px;
+      .skroller{
+        background: url(../images/pages/product/packing/s5-bg.jpg) no-repeat center -170px;
+      }
+      .text{
+        text-align: left;
+        top: 320px;
+        margin-left: -610px;
+      }
+    }
+    .section-desc {
+      background-color: #000;
+      color: #fff;
+      padding: 80px 0 80px 0;
+      bottom: 0;
+      width: 100%;
+      position: absolute;
+      font-size: 16px;
+      p{
+        /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+        width: 784px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 30px;
+      }
+    }
+  }
+
+  /* 西湖龙井 */
+  .longjing{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width: 310px;
+      margin: 0;
+    }
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+    }
+
+    .section1{
+      background: url(../images/pages/product/longjing/s1-bg.jpg) no-repeat center 0;
+      height: 720px;
+      .text{
+        margin-left: -155px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/product/longjing/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+
+      .content{
+        width: 1057px;
+        height: 480px;
+        border: 8px solid #b8c03d;
+        margin: 0 auto;
+        padding: 65px;
+        text-align: center;
+        position: relative;
+      }
+      .title{
+        font-size: 35px;
+        color: #916f53;
+        width: 350px;
+        background-color: #000;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        top: -30px;
+        z-index: 9;
+      }
+      .desc{
+        width: 570px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ddd;
+        .key{
+          color: #916f53;
+        }
+        p{
+          margin-bottom: 45px; line-height: 30px; font-size: 14px;
+        }
+      }
+    }
+
+    .section3{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/longjing/s3-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        width: 500px;
+        left: 80px;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/longjing/s4-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        left: 880px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      background: url(../images/pages/product/longjing/s5-bg.jpg) no-repeat center 0;
+      height: 720px;
+
+      .text{
+        text-align: left;
+        left: 80px;
+        top: 310px;
+      }
+
+      .g1{
+        width: 282px;
+        height: 434px;
+        background: url(../images/pages/product/longjing/g1.png) no-repeat center center;
+        position: absolute;
+        top: 240px;
+        left: 450px;
+      }
+
+      .g2{
+        width: 409px;
+        height: 478px;
+        background: url(../images/pages/product/longjing/g2.png) no-repeat center center;
+        position: absolute;
+        top: 200px;
+        left: 810px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/longjing/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        text-align: left;
+        left: 920px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+
+      .skroller{
+        background: url(../images/pages/product/longjing/s7-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 70px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/longjing/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -155px;
+      }
+
+      .item{
+        background: url(../images/pages/product/longjing/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 250px;
+          position: absolute;
+          top: 270px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+        }
+        .i3{
+          width:400px;
+          margin-left: -70px;
+          left: 800px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/longjing/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 400px;
+        top: 230px;
+        left: 720px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 520px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -155px;
+        top: 95px;
+      }
+
+      .items{
+        height: 137px;
+        text-align: center;
+        top: 230px;
+        position: relative;
+        a{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 137px;
+
+          font-size: 18px;
+          text-align: center;
+          color: #a08165;
+          text-decoration: none;
+          line-height: 370px;
+
+          &.icon1{
+            background: url(../images/pages/product/longjing/icon1.png) no-repeat center center;
+          }
+          &.icon2{
+            background: url(../images/pages/product/longjing/icon2.png) no-repeat center center;
+          }
+          &.icon3{
+            background: url(../images/pages/product/longjing/icon3.png) no-repeat center center;
+          }
+          &.icon4{
+            background: url(../images/pages/product/longjing/icon4.png) no-repeat center center;
+          }
+          &.icon5{
+            background: url(../images/pages/product/longjing/icon5.png) no-repeat center center;
+          }
+        }
+        i{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 70px;
+          background: url(../images/pages/product/longjing/n.png) no-repeat center center;
+        }
+      }
+    }
+  }
+
+  /*黄山毛峰*/
+  .huangshan{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width: 400px;
+      margin: 0;
+    }
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+    }
+
+    .section1{
+      background: url(../images/pages/product/huangshan/s1-bg.jpg) no-repeat center 0;
+      height: 720px;
+      .text{
+        margin-left: -155px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+      .text{
+          width: 310px;
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/product/huangshan/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+      .t2{
+          font-size: 20px;
+      }
+      .content{
+        width: 1057px;
+        height: 480px;
+        border: 8px solid #70a524;
+        margin: 0 auto;
+        padding: 65px;
+        text-align: center;
+        position: relative;
+      }
+      .title{
+        font-size: 35px;
+        color: #916f53;
+        width: 350px;
+        background-color: #000;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        top: -30px;
+        z-index: 9;
+      }
+      .desc{
+        width: 570px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ddd;
+        .key{
+          color: #916f53;
+        }
+        p{
+          margin-bottom: 45px; line-height: 30px; font-size: 14px;
+        }
+      }
+    }
+
+    .section3{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/huangshan/s3-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        width: 500px;
+        left: 0;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/huangshan/s4-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        left: 920px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      background: url(../images/pages/product/huangshan/s5-bg.jpg) no-repeat center 0;
+      height: 720px;
+
+      .text{
+        text-align: left;
+        left: 0;
+        top: 310px;
+      }
+
+      .g1{
+        width: 282px;
+        height: 434px;
+        background: url(../images/pages/product/huangshan/g1.png) no-repeat center center;
+        position: absolute;
+        top: 240px;
+        left: 450px;
+      }
+
+      .g2{
+        width: 409px;
+        height: 478px;
+        background: url(../images/pages/product/huangshan/g2.png) no-repeat center center;
+        position: absolute;
+        top: 200px;
+        left: 810px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/huangshan/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        text-align: left;
+        left: 940px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+
+      .skroller{
+        background: url(../images/pages/product/huangshan/s7-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 20px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/huangshan/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -155px;
+      }
+
+      .item{
+        background: url(../images/pages/product/huangshan/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 250px;
+          position: absolute;
+          bottom: -90px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+        }
+        .i3{
+          left: 800px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/huangshan/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 350px;
+        top: 230px;
+        left: 850px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 520px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -155px;
+        top: 95px;
+      }
+
+      .items{
+        height: 137px;
+        text-align: center;
+        top: 230px;
+        position: relative;
+        a{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 137px;
+
+          font-size: 18px;
+          text-align: center;
+          color: #a08165;
+          text-decoration: none;
+          line-height: 370px;
+
+          &.icon1{
+            background: url(../images/pages/product/huangshan/icon1.png) no-repeat center center;
+          }
+          &.icon2{
+            background: url(../images/pages/product/huangshan/icon2.png) no-repeat center center;
+          }
+          &.icon3{
+            background: url(../images/pages/product/huangshan/icon3.png) no-repeat center center;
+          }
+          &.icon4{
+            background: url(../images/pages/product/huangshan/icon4.png) no-repeat center center;
+          }
+          &.icon5{
+            background: url(../images/pages/product/huangshan/icon5.png) no-repeat center center;
+          }
+        }
+        i{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 70px;
+          background: url(../images/pages/product/huangshan/n.png) no-repeat center center;
+        }
+      }
+    }
+  }
+
+  /*武夷大红袍*/
+  .wuyi{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width: 400px;
+      margin: 0;
+    }
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+    }
+
+    .section1{
+      background: url(../images/pages/product/wuyi/s1-bg.jpg) no-repeat center 0;
+      height: 720px;
+      .text{
+        margin-left: -155px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+      .text{
+          width: 310px
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/product/wuyi/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+      .t2{
+          font-size: 20px;
+      }
+      .content{
+        width: 1057px;
+        height: 480px;
+        border: 8px solid #ac362b;
+        margin: 0 auto;
+        padding: 65px;
+        text-align: center;
+        position: relative;
+      }
+      .title{
+        font-size: 35px;
+        color: #916f53;
+        width: 350px;
+        background-color: #000;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        top: -30px;
+        z-index: 9;
+      }
+      .desc{
+        width: 720px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ddd;
+        .key{
+          color: #916f53;
+        }
+        p{
+          margin-bottom: 45px; line-height: 30px; font-size: 14px;
+        }
+      }
+    }
+
+    .section3{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/wuyi/s3-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        width: 500px;
+        left: 80px;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/wuyi/s4-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        left: 880px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      background: url(../images/pages/product/wuyi/s5-bg.jpg) no-repeat center 0;
+      height: 720px;
+
+      .text{
+        text-align: left;
+        left: 120px;
+        top: 310px;
+      }
+
+      .g1{
+        width: 282px;
+        height: 434px;
+        background: url(../images/pages/product/wuyi/g1.png) no-repeat center center;
+        position: absolute;
+        top: 240px;
+        left: 450px;
+      }
+
+      .g2{
+        width: 409px;
+        height: 478px;
+        background: url(../images/pages/product/wuyi/g2.png) no-repeat center center;
+        position: absolute;
+        top: 200px;
+        left: 810px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/wuyi/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        text-align: left;
+        left: 920px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+
+      .skroller{
+        background: url(../images/pages/product/wuyi/s7-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 70px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/wuyi/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -200px;
+      }
+
+      .item{
+        background: url(../images/pages/product/wuyi/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 400px;
+          position: absolute;
+          top: 270px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          margin-left: -70px;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+        }
+        .i3{
+          left: 800px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/wuyi/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 350px;
+        top: 230px;
+        left: 770px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 520px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -200px;
+        top: 95px;
+      }
+
+      .items{
+        height: 137px;
+        text-align: center;
+        top: 230px;
+        position: relative;
+        a{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 137px;
+
+          font-size: 18px;
+          text-align: center;
+          color: #a08165;
+          text-decoration: none;
+          line-height: 370px;
+
+          &.icon1{
+            background: url(../images/pages/product/wuyi/icon1.png) no-repeat center center;
+          }
+          &.icon2{
+            background: url(../images/pages/product/wuyi/icon2.png) no-repeat center center;
+          }
+          &.icon3{
+            background: url(../images/pages/product/wuyi/icon3.png) no-repeat center center;
+          }
+          &.icon4{
+            background: url(../images/pages/product/wuyi/icon4.png) no-repeat center center;
+          }
+          &.icon5{
+            background: url(../images/pages/product/wuyi/icon5.png) no-repeat center center;
+          }
+          &.icon6{
+            background: url(../images/pages/product/wuyi/icon6.png) no-repeat center center;
+          }
+        }
+        i{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 70px;
+          background: url(../images/pages/product/wuyi/n.png) no-repeat center center;
+        }
+      }
+    }
+  }
+
+  /*铁观音清香*/
+  .qingxiang{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width: 400px;
+      margin: 0;
+    }
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+    }
+
+    .section1{
+      background: url(../images/pages/product/qingxiang/s1-bg.jpg) no-repeat center 0;
+      height: 720px;
+      .text{
+        margin-left: -155px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+      .text{
+          width: 310px;
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/product/qingxiang/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+      .t2{
+          font-size: 20px;
+      }
+      .content{
+        width: 1057px;
+        height: 480px;
+        border: 8px solid #4c7976;
+        margin: 0 auto;
+        padding: 65px;
+        text-align: center;
+        position: relative;
+      }
+      .title{
+        font-size: 35px;
+        color: #916f53;
+        width: 350px;
+        background-color: #000;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        top: -30px;
+        z-index: 9;
+      }
+      .desc{
+        width: 750px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ddd;
+        .key{
+          color: #916f53;
+        }
+        p{
+          margin-bottom: 45px; line-height: 30px; font-size: 14px;
+        }
+      }
+    }
+
+    .section3{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/qingxiang/s3-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        width: 500px;
+        left: 80px;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/qingxiang/s4-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        left: 880px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      background: url(../images/pages/product/qingxiang/s5-bg.jpg) no-repeat center 0;
+      height: 720px;
+
+      .text{
+        text-align: left;
+        left: 40px;
+        top: 310px;
+      }
+
+      .g1{
+        width: 282px;
+        height: 434px;
+        background: url(../images/pages/product/qingxiang/g1.png) no-repeat center center;
+        position: absolute;
+        top: 240px;
+        left: 450px;
+      }
+
+      .g2{
+        width: 409px;
+        height: 478px;
+        background: url(../images/pages/product/qingxiang/g2.png) no-repeat center center;
+        position: absolute;
+        top: 200px;
+        left: 810px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/qingxiang/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        text-align: left;
+        left: 920px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+
+      .skroller{
+        background: url(../images/pages/product/qingxiang/s7-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 70px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/qingxiang/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -155px;
+        width: 300px;
+      }
+      .tt{
+          margin-left:-240px;
+      }
+      .item{
+        background: url(../images/pages/product/qingxiang/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 250px;
+          position: absolute;
+          top: 270px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+          width: 400px;
+          margin-left:-70px;
+        }
+        .i3{
+          left: 800px;
+          width:400px;
+          margin-left:-70px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/qingxiang/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 350px;
+        top: 230px;
+        left: 770px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 750px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -200px;
+        top: 95px;
+      }
+      .items{
+        height: 137px;
+        text-align: center;
+        top: 230px;
+        position: relative;
+        a{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 137px;
+
+          font-size: 18px;
+          text-align: center;
+          color: #a08165;
+          text-decoration: none;
+          line-height: 370px;
+
+          &.icon1{
+            background: url(../images/pages/product/qingxiang/icon1.png) no-repeat center center;
+          }
+          &.icon2{
+            background: url(../images/pages/product/qingxiang/icon2.png) no-repeat center center;
+          }
+          &.icon3{
+            background: url(../images/pages/product/qingxiang/icon3.png) no-repeat center center;
+          }
+          &.icon4{
+            background: url(../images/pages/product/qingxiang/icon4.png) no-repeat center center;
+          }
+          &.icon5{
+            background: url(../images/pages/product/qingxiang/icon5.png) no-repeat center center;
+          }
+          &.icon6{
+            background: url(../images/pages/product/qingxiang/icon6.png) no-repeat center center;
+          }
+          &.icon7{
+            background: url(../images/pages/product/qingxiang/icon7.png) no-repeat center center;
+          }
+          &.icon8{
+            background: url(../images/pages/product/qingxiang/icon8.png) no-repeat center center;
+          }
+        }
+        i{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 70px;
+          background: url(../images/pages/product/qingxiang/n.png) no-repeat center center;
+        }
+      }
+      .items.two{
+          margin-top: 100px;
+      }
+    }
+  }
+
+  /*铁观音浓香*/
+  .nongxiang{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width: 400px;
+      margin: 0;
+    }
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+    }
+
+    .section1{
+      background: url(../images/pages/product/nongxiang/s1-bg.jpg) no-repeat center 0;
+      height: 720px;
+      .text{
+        margin-left: -155px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+      .text{
+          width:310px;
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/product/nongxiang/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+      .t2{
+          font-size: 20px;
+      }
+      .content{
+        width: 1057px;
+        height: 480px;
+        border: 8px solid #4c4a44;
+        margin: 0 auto;
+        padding: 65px;
+        text-align: center;
+        position: relative;
+      }
+      .title{
+        font-size: 35px;
+        color: #916f53;
+        width: 350px;
+        background-color: #000;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        top: -30px;
+        z-index: 9;
+      }
+      .desc{
+        width: 750px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ddd;
+        .key{
+          color: #916f53;
+        }
+        p{
+          margin-bottom: 45px; line-height: 30px; font-size: 14px;
+        }
+      }
+    }
+
+    .section3{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/nongxiang/s3-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        width: 500px;
+        left: 80px;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/nongxiang/s4-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        left: 880px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      background: url(../images/pages/product/nongxiang/s5-bg.jpg) no-repeat center 0;
+      height: 720px;
+
+      .text{
+        text-align: left;
+        left: 120px;
+        top: 310px;
+      }
+
+      .g1{
+        width: 282px;
+        height: 434px;
+        background: url(../images/pages/product/nongxiang/g1.png) no-repeat center center;
+        position: absolute;
+        top: 240px;
+        left: 450px;
+      }
+
+      .g2{
+        width: 409px;
+        height: 478px;
+        background: url(../images/pages/product/nongxiang/g2.png) no-repeat center center;
+        position: absolute;
+        top: 200px;
+        left: 810px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/nongxiang/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        text-align: left;
+        left: 920px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+
+      .skroller{
+        background: url(../images/pages/product/nongxiang/s7-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 70px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/nongxiang/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -155px;
+        width: 300px;
+      }
+      .tt{
+          margin-left:-245px;
+      }
+
+      .item{
+        background: url(../images/pages/product/nongxiang/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 250px;
+          position: absolute;
+          top:270px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+          width: 300px;
+          margin-left:-25px;
+        }
+        .i3{
+          left: 800px;
+          width:400px;
+          margin-left:-70px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/nongxiang/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 350px;
+        top: 230px;
+        left: 770px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 750px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -200px;
+        top: 95px;
+      }
+      .items{
+        height: 137px;
+        text-align: center;
+        top: 230px;
+        position: relative;
+        a{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 137px;
+
+          font-size: 18px;
+          text-align: center;
+          color: #a08165;
+          text-decoration: none;
+          line-height: 370px;
+
+          &.icon1{
+            background: url(../images/pages/product/nongxiang/icon1.png) no-repeat center center;
+          }
+          &.icon2{
+            background: url(../images/pages/product/nongxiang/icon2.png) no-repeat center center;
+          }
+          &.icon3{
+            background: url(../images/pages/product/nongxiang/icon3.png) no-repeat center center;
+          }
+          &.icon4{
+            background: url(../images/pages/product/nongxiang/icon4.png) no-repeat center center;
+          }
+          &.icon5{
+            background: url(../images/pages/product/nongxiang/icon5.png) no-repeat center center;
+          }
+          &.icon6{
+            background: url(../images/pages/product/nongxiang/icon6.png) no-repeat center center;
+          }
+          &.icon7{
+            background: url(../images/pages/product/nongxiang/icon7.png) no-repeat center center;
+          }
+          &.icon8{
+            background: url(../images/pages/product/nongxiang/icon8.png) no-repeat center center;
+          }
+        }
+        i{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 70px;
+          background: url(../images/pages/product/nongxiang/n.png) no-repeat center center;
+        }
+      }
+      .items.two{
+          margin-top: 100px;
+      }
+    }
+  }
+
+  /*金骏眉*/
+  .jinjunmei{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width: 400px;
+      margin: 0;
+    }
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+    }
+
+    .section1{
+      background: url(../images/pages/product/jinjunmei/s1-bg.jpg) no-repeat center 0;
+      height: 720px;
+      .text{
+        margin-left: -155px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+      .text{
+          width: 310px;
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/product/jinjunmei/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+      .t2{
+          font-size: 20px;
+      }
+      .content{
+        width: 1057px;
+        height: 480px;
+        border: 8px solid #ca9253;
+        margin: 0 auto;
+        padding: 65px;
+        text-align: center;
+        position: relative;
+      }
+      .title{
+        font-size: 35px;
+        color: #916f53;
+        width: 350px;
+        background-color: #000;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        top: -30px;
+        z-index: 9;
+      }
+      .desc{
+        width: 750px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ddd;
+        .key{
+          color: #916f53;
+        }
+        p{
+          margin-bottom: 45px; line-height: 30px; font-size: 14px;
+        }
+      }
+    }
+
+    .section3{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/jinjunmei/s3-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        width: 500px;
+        left: 0;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/jinjunmei/s4-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        left: 920px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      background: url(../images/pages/product/jinjunmei/s5-bg.jpg) no-repeat center 0;
+      height: 720px;
+
+      .text{
+        text-align: left;
+        left: 0;
+        top: 310px;
+      }
+
+      .g1{
+        width: 282px;
+        height: 434px;
+        background: url(../images/pages/product/jinjunmei/g1.png) no-repeat center center;
+        position: absolute;
+        top: 240px;
+        left: 450px;
+      }
+
+      .g2{
+        width: 409px;
+        height: 478px;
+        background: url(../images/pages/product/jinjunmei/g2.png) no-repeat center center;
+        position: absolute;
+        top: 200px;
+        left: 810px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/jinjunmei/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        text-align: left;
+        left: 940px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+
+      .skroller{
+        background: url(../images/pages/product/jinjunmei/s7-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 20px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/jinjunmei/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -155px;
+        width: 300px;
+      }
+
+      .item{
+        background: url(../images/pages/product/jinjunmei/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 250px;
+          position: absolute;
+          bottom: -90px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+        }
+        .i3{
+          left: 800px;
+          width:400px;
+          margin-left:-70px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/jinjunmei/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 350px;
+        top: 230px;
+        left: 850px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 750px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -200px;
+        top: 95px;
+      }
+      .items{
+        height: 137px;
+        text-align: center;
+        top: 230px;
+        position: relative;
+        a{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 137px;
+
+          font-size: 18px;
+          text-align: center;
+          color: #a08165;
+          text-decoration: none;
+          line-height: 370px;
+
+          &.icon1{
+            background: url(../images/pages/product/jinjunmei/icon1.png) no-repeat center center;
+          }
+          &.icon2{
+            background: url(../images/pages/product/jinjunmei/icon2.png) no-repeat center center;
+          }
+          &.icon3{
+            background: url(../images/pages/product/jinjunmei/icon3.png) no-repeat center center;
+          }
+          &.icon4{
+            background: url(../images/pages/product/jinjunmei/icon4.png) no-repeat center center;
+          }
+          &.icon5{
+            background: url(../images/pages/product/jinjunmei/icon5.png) no-repeat center center;
+          }
+          &.icon6{
+            background: url(../images/pages/product/jinjunmei/icon6.png) no-repeat center center;
+          }
+          &.icon7{
+            background: url(../images/pages/product/jinjunmei/icon7.png) no-repeat center center;
+          }
+          &.icon8{
+            background: url(../images/pages/product/jinjunmei/icon8.png) no-repeat center center;
+          }
+        }
+        i{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 70px;
+          background: url(../images/pages/product/jinjunmei/n.png) no-repeat center center;
+        }
+      }
+      .items.two{
+          margin-top: 100px;
+      }
+    }
+  }
+
+  /*黄山*/
+  .huangshan{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width: 400px;
+      margin: 0;
+    }
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+    }
+
+    .section1{
+      background: url(../images/pages/product/huangshan/s1-bg.jpg) no-repeat center 0;
+      height: 720px;
+      .text{
+        margin-left: -155px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/product/huangshan/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+      .t2{
+          font-size: 20px;
+      }
+      .content{
+        width: 1057px;
+        height: 480px;
+        border: 8px solid #70a524;
+        margin: 0 auto;
+        padding: 65px;
+        text-align: center;
+        position: relative;
+      }
+      .title{
+        font-size: 35px;
+        color: #916f53;
+        width: 350px;
+        background-color: #000;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        top: -30px;
+        z-index: 9;
+      }
+      .desc{
+        width: 570px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ddd;
+        .key{
+          color: #916f53;
+        }
+        p{
+          margin-bottom: 45px; line-height: 30px; font-size: 14px;
+        }
+      }
+    }
+
+    .section3{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/huangshan/s3-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        width: 500px;
+        left: 80px;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/huangshan/s4-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        left: 880px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      background: url(../images/pages/product/huangshan/s5-bg.jpg) no-repeat center 0;
+      height: 720px;
+
+      .text{
+        text-align: left;
+        left: 120px;
+        top: 310px;
+      }
+
+      .g1{
+        width: 282px;
+        height: 434px;
+        background: url(../images/pages/product/huangshan/g1.png) no-repeat center center;
+        position: absolute;
+        top: 240px;
+        left: 450px;
+      }
+
+      .g2{
+        width: 409px;
+        height: 478px;
+        background: url(../images/pages/product/huangshan/g2.png) no-repeat center center;
+        position: absolute;
+        top: 200px;
+        left: 810px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/huangshan/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        text-align: left;
+        left: 920px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+
+      .skroller{
+        background: url(../images/pages/product/huangshan/s7-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 70px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/huangshan/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -200px;
+      }
+
+      .item{
+        background: url(../images/pages/product/huangshan/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 250px;
+          position: absolute;
+          top: 270px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+        }
+        .i3{
+          width:400px;
+          margin-left:-70px;
+          left: 800px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/huangshan/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 350px;
+        top: 230px;
+        left: 810px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 520px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -200px;
+        top: 95px;
+      }
+
+      .items{
+        height: 137px;
+        text-align: center;
+        top: 230px;
+        position: relative;
+        a{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 137px;
+
+          font-size: 18px;
+          text-align: center;
+          color: #a08165;
+          text-decoration: none;
+          line-height: 370px;
+
+          &.icon1{
+            background: url(../images/pages/product/huangshan/icon1.png) no-repeat center center;
+          }
+          &.icon2{
+            background: url(../images/pages/product/huangshan/icon2.png) no-repeat center center;
+          }
+          &.icon3{
+            background: url(../images/pages/product/huangshan/icon3.png) no-repeat center center;
+          }
+          &.icon4{
+            background: url(../images/pages/product/huangshan/icon4.png) no-repeat center center;
+          }
+          &.icon5{
+            background: url(../images/pages/product/huangshan/icon5.png) no-repeat center center;
+          }
+        }
+        i{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 70px;
+          background: url(../images/pages/product/huangshan/n.png) no-repeat center center;
+        }
+      }
+    }
+  }
+
+  /*滇红*/
+  .dianhong{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width: 300px;
+      margin: 0;
+    }
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+    }
+
+    .section1{
+      background: url(../images/pages/product/dianhong/s1-bg.jpg) no-repeat center 0;
+      height: 720px;
+      .text{
+        margin-left: -155px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/product/dianhong/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+      .t2{
+          font-size: 20px;
+      }
+      .content{
+        width: 1057px;
+        height: 480px;
+        border: 8px solid #5d232a;
+        margin: 0 auto;
+        padding: 65px;
+        text-align: center;
+        position: relative;
+      }
+      .title{
+        font-size: 35px;
+        color: #916f53;
+        width: 350px;
+        background-color: #000;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        top: -30px;
+        z-index: 9;
+      }
+      .desc{
+        width: 720px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ddd;
+        .key{
+          color: #916f53;
+        }
+        p{
+          margin-bottom: 45px; line-height: 30px; font-size: 14px;
+        }
+      }
+    }
+
+    .section3{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/dianhong/s3-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        width: 500px;
+        left: 80px;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/dianhong/s4-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        left: 880px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      background: url(../images/pages/product/dianhong/s5-bg.jpg) no-repeat center 0;
+      height: 720px;
+
+      .text{
+        text-align: left;
+        left: 40px;
+        top: 310px;
+      }
+
+      .g1{
+        width: 282px;
+        height: 434px;
+        background: url(../images/pages/product/dianhong/g1.png) no-repeat center center;
+        position: absolute;
+        top: 240px;
+        left: 450px;
+      }
+
+      .g2{
+        width: 409px;
+        height: 478px;
+        background: url(../images/pages/product/dianhong/g2.png) no-repeat center center;
+        position: absolute;
+        top: 200px;
+        left: 810px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/dianhong/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        text-align: left;
+        left: 920px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+
+      .skroller{
+        background: url(../images/pages/product/dianhong/s7-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 70px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/dianhong/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -155px;
+      }
+      .tt{
+          margin-left: -240px;
+      }
+      .item{
+        background: url(../images/pages/product/dianhong/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 250px;
+          position: absolute;
+          top: 270px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+          width:300px;
+          margin-left: -20px;
+        }
+        .i3{
+          left: 800px;
+          width:400px;
+          margin-left: -70px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/dianhong/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 350px;
+        top: 230px;
+        left: 770px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 520px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -150px;
+        top: 95px;
+      }
+
+      .items{
+        height: 137px;
+        text-align: center;
+        top: 230px;
+        position: relative;
+        a{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 137px;
+
+          font-size: 18px;
+          text-align: center;
+          color: #a08165;
+          text-decoration: none;
+          line-height: 370px;
+
+          &.icon1{
+            background: url(../images/pages/product/dianhong/icon1.png) no-repeat center center;
+          }
+          &.icon2{
+            background: url(../images/pages/product/dianhong/icon2.png) no-repeat center center;
+          }
+          &.icon3{
+            background: url(../images/pages/product/dianhong/icon3.png) no-repeat center center;
+          }
+          &.icon4{
+            background: url(../images/pages/product/dianhong/icon4.png) no-repeat center center;
+          }
+          &.icon5{
+            background: url(../images/pages/product/dianhong/icon5.png) no-repeat center center;
+          }
+          &.icon6{
+            background: url(../images/pages/product/dianhong/icon6.png) no-repeat center center;
+          }
+        }
+        i{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 70px;
+          background: url(../images/pages/product/dianhong/n.png) no-repeat center center;
+        }
+      }
+    }
+  }
+
+  /*普洱生茶*/
+  .puersheng{
+     padding-bottom: 110px; /* 底部间距 */
+     .text{
+       width:310px;
+       margin: 0;
+     }
+
+     .t1{
+       font-size: 35px;
+       color: #ccac82;
+       /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+       margin-bottom: 15px;
+       font-weight: 300;
+     }
+
+     .t2{
+       font-size: 20px;
+       /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+       line-height: 30px;
+     }
+
+     .section1{
+       background: url(../images/pages/product/puer/s1-bg.jpg) no-repeat center 0;
+       height: 720px;
+       .text{
+         margin-left: -155px;
+         top: 80px;
+       }
+
+       .t1{
+         font-size: 48px;
+       }
+     }
+
+     .section2{
+       background: url(../images/pages/product/puer/s2-bg.jpg) repeat-x;
+       height: 680px;
+       padding: 100px 0;
+       .t2{
+           font-size: 20px;
+       }
+       .content{
+         width: 1057px;
+         height: 480px;
+         border: 8px solid #2e5148;
+         margin: 0 auto;
+         padding: 65px;
+         text-align: center;
+         position: relative;
+       }
+       .title{
+         font-size: 35px;
+         color: #916f53;
+         width: 350px;
+         background-color: #000;
+         position: absolute;
+         left: 50%;
+         margin-left: -175px;
+         top: -30px;
+         z-index: 9;
+       }
+       .desc{
+         width: 750px;
+         margin: 0 auto;
+         font-size: 16px;
+         color: #fff;
+         .key{
+           color: #916f53;
+         }
+         p{
+           margin-bottom: 45px; line-height: 30px; font-size: 14px;
+         }
+       }
+     }
+
+     .section3{
+       height: 720px;
+
+       .skroller{
+         background: url(../images/pages/product/puer/s3-bg.jpg) no-repeat center 0;
+       }
+
+       .text{
+         width: 500px;
+         left: 80px;
+         top: 290px;
+         text-align: left;
+       }
+     }
+
+     .section4{
+       height: 720px;
+
+       .skroller{
+         background: url(../images/pages/product/puer/s4-bg.jpg) no-repeat center 0;
+       }
+
+       .text{
+         text-align: left;
+         left: 880px;
+         top: 320px;
+       }
+     }
+
+     .section5{
+       background: url(../images/pages/product/puer/s5-bg.jpg) no-repeat center 0;
+       height: 720px;
+
+       .text{
+         text-align: left;
+         left: 120px;
+         top: 310px;
+       }
+
+       .g1{
+         width: 282px;
+         height: 434px;
+         background: url(../images/pages/product/puer/g1.png) no-repeat center center;
+         position: absolute;
+         top: 240px;
+         left: 450px;
+       }
+
+       .g2{
+         width: 409px;
+         height: 478px;
+         background: url(../images/pages/product/puer/g2.png) no-repeat center center;
+         position: absolute;
+         top: 200px;
+         left: 810px;
+       }
+     }
+
+     .section6{
+       height: 720px;
+       .skroller{
+         background: url(../images/pages/product/puer/s6-bg.jpg) no-repeat center 0;
+       }
+       .text{
+         text-align: left;
+         left: 920px;
+         top: 320px;
+       }
+     }
+
+     .section7{
+       height: 750px;
+
+       .skroller{
+         background: url(../images/pages/product/puer/s7-bg.jpg) no-repeat center 0;
+       }
+
+       .text{
+         text-align: left;
+         top: 320px;
+         left: 70px;
+       }
+     }
+
+     .section8{
+       height: 720px;
+       .skroller{
+         background: url(../images/pages/product/puer/s8-bg.jpg) no-repeat center 0;
+       }
+     }
+
+     .section9{
+       height: 660px;
+
+       .text{
+         margin-left: -155px;
+         width: 300px;
+       }
+       .tt{
+           margin-left: -240px;
+       }
+
+       .item{
+         background: url(../images/pages/product/puer/s9-bg.png) no-repeat;
+         margin: 0 auto;
+         position: relative;
+         top: 210px;
+         width: 1050px;
+         height: 260px;
+
+         p{
+           width: 250px;
+           position: absolute;
+           top: 270px;
+           text-align: center;
+           font-size: 16px;
+           color: #a9a9a9;
+           line-height: 30px;
+         }
+
+         .i1{
+           left: 0;
+         }
+         .i2{
+           left: 400px;
+           width: 400px;
+           margin-left: -72px;
+         }
+         .i3{
+           left: 800px;
+           width:400px;
+           margin-left:-70px;
+         }
+       }
+     }
+
+     .section10{
+       height: 720px;
+       .skroller{
+         background: url(../images/pages/product/puer/s10-bg.jpg) no-repeat center 0;
+       }
+       .text{
+         width: 350px;
+         top: 230px;
+         left: 770px;
+         text-align: right;
+       }
+       .t1{
+         margin-bottom: 20px;
+       }
+       .t2{
+         margin-bottom: 30px;
+       }
+     }
+
+     .section11{
+       height: 750px;
+       background-color: #1b1c1c;
+       .text{
+         margin-left: -155px;
+         top: 95px;
+       }
+       .items{
+         height: 137px;
+         text-align: center;
+         top: 230px;
+         position: relative;
+         a{
+           display: inline-block;
+           vertical-align: middle;
+           height: 137px;
+           width: 137px;
+
+           font-size: 18px;
+           text-align: center;
+           color: #a08165;
+           text-decoration: none;
+           line-height: 370px;
+
+           &.icon1{
+             background: url(../images/pages/product/puer/icon1.png) no-repeat center center;
+           }
+           &.icon2{
+             background: url(../images/pages/product/puer/icon2.png) no-repeat center center;
+           }
+           &.icon3{
+             background: url(../images/pages/product/puer/icon3.png) no-repeat center center;
+           }
+           &.icon4{
+             background: url(../images/pages/product/puer/icon4.png) no-repeat center center;
+           }
+           &.icon5{
+             background: url(../images/pages/product/puer/icon5.png) no-repeat center center;
+           }
+           &.icon6{
+             background: url(../images/pages/product/puer/icon6.png) no-repeat center center;
+           }
+           &.icon7{
+             background: url(../images/pages/product/puer/icon7.png) no-repeat center center;
+           }
+           &.icon8{
+             background: url(../images/pages/product/puer/icon8.png) no-repeat center center;
+           }
+         }
+         i{
+           display: inline-block;
+           vertical-align: middle;
+           height: 137px;
+           width: 70px;
+           background: url(../images/pages/product/puer/n.png) no-repeat center center;
+         }
+         .last-i{
+             opacity: 0;
+             filter:alpha(opacity=0);
+             cursor: default;
+         }
+       }
+       .items.two{
+           margin-top: 100px;
+       }
+     }
+  }
+
+  /*普洱熟茶*/
+  .puershu{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width:310px;
+      margin: 0;
+    }
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+    }
+
+    .section1{
+      background: url(../images/pages/product/puershu/s1-bg.jpg) no-repeat center 0;
+      height: 720px;
+      .text{
+        margin-left: -155px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/product/puershu/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+      .t2{
+          font-size: 20px;
+      }
+      .content{
+        width: 1057px;
+        height: 480px;
+        border: 8px solid #422b24;
+        margin: 0 auto;
+        padding: 65px;
+        text-align: center;
+        position: relative;
+      }
+      .title{
+        font-size: 35px;
+        color: #916f53;
+        width: 350px;
+        background-color: #000;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        top: -30px;
+        z-index: 9;
+      }
+      .desc{
+        width: 750px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ddd;
+        .key{
+          color: #916f53;
+        }
+        p{
+          margin-bottom: 45px; line-height: 30px; font-size: 14px;
+        }
+      }
+    }
+
+    .section3{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/puershu/s3-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        width: 500px;
+        left: 80px;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/puershu/s4-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        left: 880px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      background: url(../images/pages/product/puershu/s5-bg.jpg) no-repeat center 0;
+      height: 720px;
+
+      .text{
+        text-align: left;
+        left: 120px;
+        top: 310px;
+      }
+
+      .g1{
+        width: 282px;
+        height: 434px;
+        background: url(../images/pages/product/puershu/g1.png) no-repeat center center;
+        position: absolute;
+        top: 240px;
+        left: 450px;
+      }
+
+      .g2{
+        width: 409px;
+        height: 478px;
+        background: url(../images/pages/product/puershu/g2.png) no-repeat center center;
+        position: absolute;
+        top: 200px;
+        left: 810px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/puershu/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        text-align: left;
+        left: 920px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+
+      .skroller{
+        background: url(../images/pages/product/puershu/s7-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 70px;
+        width: 400px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/puershu/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -155px;
+        width: 300px;
+      }
+      .tt{
+          margin-left: -240px;
+      }
+
+      .item{
+        background: url(../images/pages/product/puershu/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 250px;
+          position: absolute;
+          top: 270px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+          width: 400px;
+          margin-left: -72px;
+        }
+        .i3{
+          left: 800px;
+          width:400px;
+          margin-left:-70px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/puershu/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 350px;
+        top: 230px;
+        left: 770px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 750px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -155px;
+        top: 95px;
+      }
+      .items{
+        height: 137px;
+        text-align: center;
+        top: 230px;
+        position: relative;
+        a{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 137px;
+
+          font-size: 18px;
+          text-align: center;
+          color: #a08165;
+          text-decoration: none;
+          line-height: 370px;
+
+          &.icon1{
+            background: url(../images/pages/product/puershu/icon1.png) no-repeat center center;
+          }
+          &.icon2{
+            background: url(../images/pages/product/puershu/icon2.png) no-repeat center center;
+          }
+          &.icon3{
+            background: url(../images/pages/product/puershu/icon3.png) no-repeat center center;
+          }
+          &.icon4{
+            background: url(../images/pages/product/puershu/icon4.png) no-repeat center center;
+          }
+          &.icon5{
+            background: url(../images/pages/product/puershu/icon5.png) no-repeat center center;
+          }
+          &.icon6{
+            background: url(../images/pages/product/puershu/icon6.png) no-repeat center center;
+          }
+          &.icon7{
+            background: url(../images/pages/product/puershu/icon7.png) no-repeat center center;
+          }
+          &.icon8{
+            background: url(../images/pages/product/puershu/icon8.png) no-repeat center center;
+          }
+        }
+        i{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 70px;
+          background: url(../images/pages/product/puershu/n.png) no-repeat center center;
+        }
+      }
+      .items.two{
+          margin-top: 100px;
+      }
+    }
+  }
+
+  /*茉莉花茶*/
+  .molihua{
+     padding-bottom: 110px; /* 底部间距 */
+     .text{
+       width:310px;
+       margin: 0;
+     }
+
+     .t1{
+       font-size: 35px;
+       color: #ccac82;
+       /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+       margin-bottom: 15px;
+       font-weight: 300;
+     }
+
+     .t2{
+       font-size: 20px;
+       /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+       line-height: 30px;
+     }
+
+     .section1{
+       background: url(../images/pages/product/molihua/s1-bg.jpg) no-repeat center 0;
+       height: 720px;
+       .text{
+         margin-left: -155px;
+         top: 80px;
+       }
+
+       .t1{
+         font-size: 48px;
+       }
+     }
+
+     .section2{
+       background: url(../images/pages/product/molihua/s2-bg.jpg) repeat-x;
+       height: 680px;
+       padding: 100px 0;
+       .t2{
+           font-size: 20px;
+       }
+       .content{
+         width: 1057px;
+         height: 480px;
+         border: 8px solid #af927b;
+         margin: 0 auto;
+         padding: 65px;
+         text-align: center;
+         position: relative;
+       }
+       .title{
+         font-size: 35px;
+         color: #916f53;
+         width: 350px;
+         background-color: #000;
+         position: absolute;
+         left: 50%;
+         margin-left: -175px;
+         top: -30px;
+         z-index: 9;
+       }
+       .desc{
+         width: 750px;
+         margin: 0 auto;
+         font-size: 16px;
+         color: #fff;
+         .key{
+           color: #916f53;
+         }
+         p{
+           margin-bottom: 45px; line-height: 30px; font-size: 14px;
+         }
+       }
+     }
+
+     .section3{
+       height: 720px;
+
+       .skroller{
+         background: url(../images/pages/product/molihua/s3-bg.jpg) no-repeat center 0;
+       }
+
+       .text{
+         width: 500px;
+         left: 80px;
+         top: 290px;
+         text-align: left;
+       }
+     }
+
+     .section4{
+       height: 720px;
+
+       .skroller{
+         background: url(../images/pages/product/molihua/s4-bg.jpg) no-repeat center 0;
+       }
+
+       .text{
+         text-align: left;
+         left: 880px;
+         top: 320px;
+       }
+     }
+
+     .section5{
+       background: url(../images/pages/product/molihua/s5-bg.jpg) no-repeat center 0;
+       height: 720px;
+
+       .text{
+         text-align: left;
+         left: 120px;
+         top: 310px;
+       }
+
+       .g1{
+         width: 282px;
+         height: 434px;
+         background: url(../images/pages/product/molihua/g1.png) no-repeat center center;
+         position: absolute;
+         top: 240px;
+         left: 450px;
+       }
+
+       .g2{
+         width: 409px;
+         height: 478px;
+         background: url(../images/pages/product/molihua/g2.png) no-repeat center center;
+         position: absolute;
+         top: 200px;
+         left: 810px;
+       }
+     }
+
+     .section6{
+       height: 720px;
+       .skroller{
+         background: url(../images/pages/product/molihua/s6-bg.jpg) no-repeat center 0;
+       }
+       .text{
+         text-align: left;
+         left: 920px;
+         top: 320px;
+       }
+     }
+
+     .section7{
+       height: 750px;
+
+       .skroller{
+         background: url(../images/pages/product/molihua/s7-bg.jpg) no-repeat center 0;
+       }
+
+       .text{
+         text-align: left;
+         top: 320px;
+         left: 70px;
+         width: 400px;
+       }
+     }
+
+     .section8{
+       height: 720px;
+       .skroller{
+         background: url(../images/pages/product/molihua/s8-bg.jpg) no-repeat center 0;
+       }
+     }
+
+     .section9{
+       height: 660px;
+
+       .text{
+         margin-left: -155px;
+         width: 300px;
+       }
+       .tt{
+           margin-left: -240px;
+       }
+
+       .item{
+         background: url(../images/pages/product/molihua/s9-bg.png) no-repeat;
+         margin: 0 auto;
+         position: relative;
+         top: 210px;
+         width: 1050px;
+         height: 260px;
+
+         p{
+           width: 250px;
+           position: absolute;
+           top: 270px;
+           text-align: center;
+           font-size: 16px;
+           color: #a9a9a9;
+           line-height: 30px;
+         }
+
+         .i1{
+           left: 0;
+         }
+         .i2{
+           left: 400px;
+           width: 400px;
+           margin-left: -72px;
+         }
+         .i3{
+           left: 800px;
+           width:400px;
+           margin-left:-70px;
+         }
+       }
+     }
+
+     .section10{
+       height: 720px;
+       .skroller{
+         background: url(../images/pages/product/molihua/s10-bg.jpg) no-repeat center 0;
+       }
+       .text{
+         width: 350px;
+         top: 230px;
+         left: 770px;
+         text-align: right;
+       }
+       .t1{
+         margin-bottom: 20px;
+       }
+       .t2{
+         margin-bottom: 30px;
+       }
+     }
+
+     .section11{
+       height: 750px;
+       background-color: #1b1c1c;
+       .text{
+         margin-left: -155px;
+         top: 95px;
+       }
+       .items{
+         height: 137px;
+         text-align: center;
+         top: 230px;
+         position: relative;
+         a{
+           display: inline-block;
+           vertical-align: middle;
+           height: 137px;
+           width: 137px;
+
+           font-size: 18px;
+           text-align: center;
+           color: #a08165;
+           text-decoration: none;
+           line-height: 370px;
+
+           &.icon1{
+               width: 180px;
+              padding-top: 180px;
+              line-height: 20px;
+             background: url(../images/pages/product/molihua/icon1.png) no-repeat center center;
+           }
+           &.icon2{
+             background: url(../images/pages/product/molihua/icon2.png) no-repeat center center;
+           }
+           &.icon3{
+             background: url(../images/pages/product/molihua/icon3.png) no-repeat center center;
+           }
+           &.icon4{
+             background: url(../images/pages/product/molihua/icon4.png) no-repeat center center;
+           }
+           &.icon5{
+             background: url(../images/pages/product/molihua/icon5.png) no-repeat center center;
+           }
+           &.icon6{
+             background: url(../images/pages/product/molihua/icon6.png) no-repeat center center;
+           }
+           &.icon7{
+             background: url(../images/pages/product/molihua/icon7.png) no-repeat center center;
+           }
+           &.icon8{
+             background: url(../images/pages/product/molihua/icon8.png) no-repeat center center;
+           }
+           &.icon9{
+             background: url(../images/pages/product/molihua/icon9.png) no-repeat center center;
+           }
+         }
+         i{
+           display: inline-block;
+           vertical-align: middle;
+           height: 137px;
+           width: 70px;
+           background: url(../images/pages/product/molihua/n.png) no-repeat center center;
+         }
+       }
+       .items.two{
+           margin-top: 100px;
+       }
+     }
+  }
+
+  /*福鼎白茶*/
+  .fuding{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width: 310px;
+      margin: 0;
+    }
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+    }
+
+    .section1{
+      background: url(../images/pages/product/fuding/s1-bg.jpg) no-repeat center 0;
+      height: 720px;
+      .text{
+        margin-left: -155px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/product/fuding/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+
+      .content{
+        width: 1057px;
+        height: 480px;
+        border: 8px solid #b5b6b9;
+        margin: 0 auto;
+        padding: 65px;
+        text-align: center;
+        position: relative;
+      }
+      .title{
+        font-size: 35px;
+        color: #916f53;
+        width: 350px;
+        background-color: #000;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+        top: -30px;
+        z-index: 9;
+      }
+      .desc{
+        width: 650px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ddd;
+        .key{
+          color: #916f53;
+        }
+        p{
+          margin-bottom: 45px; line-height: 30px; font-size: 14px;
+        }
+      }
+    }
+
+    .section3{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/fuding/s3-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        width: 500px;
+        left: 80px;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+
+      .skroller{
+        background: url(../images/pages/product/fuding/s4-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        left: 880px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      background: url(../images/pages/product/fuding/s5-bg.jpg) no-repeat center 0;
+      height: 720px;
+
+      .text{
+        text-align: left;
+        left: 120px;
+        top: 310px;
+      }
+
+      .g1{
+        width: 282px;
+        height: 434px;
+        background: url(../images/pages/product/fuding/g1.png) no-repeat center center;
+        position: absolute;
+        top: 240px;
+        left: 450px;
+      }
+
+      .g2{
+        width: 409px;
+        height: 478px;
+        background: url(../images/pages/product/fuding/g2.png) no-repeat center center;
+        position: absolute;
+        top: 200px;
+        left: 810px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/fuding/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        text-align: left;
+        left: 880px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+
+      .skroller{
+        background: url(../images/pages/product/fuding/s7-bg.jpg) no-repeat center 0;
+      }
+
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 70px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/fuding/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -155px;
+      }
+
+      .item{
+        background: url(../images/pages/product/fuding/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 250px;
+          position: absolute;
+          top: 270px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+        }
+        .i3{
+          left: 800px;
+          width: 350px;
+          margin-left: -40px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/fuding/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 350px;
+        top: 230px;
+        left: 770px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 520px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -150px;
+        top: 95px;
+      }
+
+      .items{
+        height: 137px;
+        text-align: center;
+        top: 230px;
+        position: relative;
+        a{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 137px;
+
+          font-size: 18px;
+          text-align: center;
+          color: #a08165;
+          text-decoration: none;
+          line-height: 370px;
+
+          &.icon1{
+            background: url(../images/pages/product/fuding/icon1.png) no-repeat center center;
+          }
+          &.icon2{
+            background: url(../images/pages/product/fuding/icon2.png) no-repeat center center;
+          }
+          &.icon3{
+            background: url(../images/pages/product/fuding/icon3.png) no-repeat center center;
+          }
+          &.icon4{
+            background: url(../images/pages/product/fuding/icon4.png) no-repeat center center;
+          }
+          &.icon5{
+            background: url(../images/pages/product/fuding/icon5.png) no-repeat center center;
+          }
+        }
+        i{
+          display: inline-block;
+          vertical-align: middle;
+          height: 137px;
+          width: 70px;
+          background: url(../images/pages/product/fuding/n.png) no-repeat center center;
+        }
+      }
+    }
+  }
+}
+
+
+/* retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+  .tea-product .index{
+     .section1 .go{
+        i{
+          background: url(../images/pages/product/index/go2.png) no-repeat;
+          background-position:center center;
+          background-size: 38px 20px;
+        }
+        &:hover i{
+          background: url(../images/pages/product/index/go2-hover.png) no-repeat;
+          background-position:center center;
+          background-size: 38px 20px;
+        }
+     }
+     .section2{
+      .bx-pager-item .bx-pager-link{
+          background: url(../images/pages/product/index/point@2x.png) no-repeat -34px 0;
+          background-size: 48px 14px;
+          &.active, &:hover{
+            background-position: 0 0;
+          }
+      }
+      .prev-slide{
+        background: url(../images/pages/product/index/control@2x.png) no-repeat left 0;
+        background-size: 160px 44px;
+        &:hover{
+          background-position: -32px 0;
+        }
+      }
+      .next-slide{
+        background: url(../images/pages/product/index/control@2x.png) no-repeat right 0;
+        background-size: 160px 44px;
+        &:hover{
+          background-position: -106px 0;
+        }
+      }
+     }
+     .testing{
+        .items .options{
+          .radio{
+            background: url(../images/pages/product/index/test/radio2-auto.png) no-repeat;
+            background-position:center top;
+            background-size: 28px 28px;
+          }
+          li{
+            &:hover{
+              .radio{
+                background: url(../images/pages/product/index/test/radio2-hover.png) no-repeat;
+                background-position:center top;
+                background-size: 28px 28px;
+              }
+            }
+            &.active{
+               .radio{
+                background: url(../images/pages/product/index/test/radio2-select.png) no-repeat;
+                background-position:center top;
+                background-size: 28px 28px;
+               }
+            }
+          }
+       }
+     }
+  }
+}

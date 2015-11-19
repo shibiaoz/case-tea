@@ -1,0 +1,16 @@
+/* reset */
+
+/* util */
+
+/* common */
+.tea-about .tea-main img { width: 100%;}
+
+/* main */
+.tea-about .tea-main { width: 1420px; margin: 0 auto;}
+.tea-about .tea-main .banner { height: 542px;}
+.tea-about .tea-main .contents .teaname { top: 52px; left: 0; font-size: 34px; color: #ccac82; text-align: center; letter-spacing: 2px; width: 100%; line-height: 40px;}
+.tea-about .tea-main .contents { height: auto; padding: 117px 0; position: relative;}
+.tea-about .tea-main .contents p { font-size: 16px; width: 850px; margin-left: auto; margin-right: auto; line-height: 30px; color: #c8c9c7;text-align: center;}
+.tea-about .tea-main .contents .txt2 { margin-top: 35px;}
+.tea-about .tea-main .dian { height: 769px;}
+ 

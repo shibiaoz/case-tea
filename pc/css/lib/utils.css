@@ -1,0 +1,46 @@
+/* Utils */
+.rel { position: relative; }
+.abs { position: absolute; }
+.oh { overflow: hidden; }
+.fl { float: left; }
+.fr { float: right; }
+.hide { display: none !important; } 
+.tc { text-align: center !important; }
+.tr { text-align: right !important; }
+.tl { text-align: left !important; }
+.vt { vertical-align: top !important; }
+.vm { vertical-align: middle !important; }
+.bold { font-weight: bold !important; }
+.tdn{ text-decoration: none; }
+.clearfix { *zoom: 1; }
+.clearfix:after { content: ""; display: block; height: 0; clear: both; visibility: hidden; }
+.m5 { margin: 5px !important; }
+.m10 { margin: 10px !important; }
+.m15 { margin: 15px !important; }
+.m20 { margin: 20px !important; }
+.mr0 { margin-right: 0px !important; }
+.mr5 { margin-right: 5px !important; }
+.mr10 { margin-right: 10px !important; }
+.mr15 { margin-right: 15px !important; }
+.mr20 { margin-right: 20px !important; }
+.ml5 { margin-left: 5px !important; }
+.ml10 { margin-left: 10px !important; }
+.ml15 { margin-left: 15px !important; }
+.ml20 { margin-left: 20px !important; }
+.mt5 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt15 { margin-top: 15px !important; }
+.mt20 { margin-top: 20px !important; }
+.mt30 { margin-top: 30px !important; }
+.mb5 { margin-bottom: 5px !important; }
+.mb10 { margin-bottom: 10px !important; }
+.mb15 { margin-bottom: 15px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb-10 { margin-bottom: -10px !important; }
+.mb-15 { margin-bottom: -15px !important; }
+.mb-30 { margin-bottom: -30px !important; }
+.mb-45 { margin-bottom: -45px !important; }
+.pb20{padding-bottom: 20px !important;}
+
+.fs14px{ font-size: 14px; }
+.fs24px{ font-size: 24px; }

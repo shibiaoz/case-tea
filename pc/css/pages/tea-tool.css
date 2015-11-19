@@ -1,0 +1,1537 @@
+.tea-tool {
+  /* 导航 */
+  .product-nav {
+    height: 61px;
+    border-bottom: 1px solid #36383a;
+    background-color: #1f1d1e;
+    opacity: .9;
+    .wrapper{
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      > span.title{ float: left; line-height: 60px; font-size: 16px;color: #916f53; margin: 0; text-align: left; }
+    }
+    .buy {
+      color: #916f53;
+      font-size: 14px;
+      border: 1px solid #916f53;
+      text-decoration: none;
+      float: right;
+      width: 138px;
+      height: 32px;
+      line-height: 32px;
+      text-align: center;
+      margin-top: 13px;
+      margin-left: 40px;
+      &:hover{
+        background-color: #ccac82;
+        color: #2d2522;
+        border-color: #ccac82;
+      }
+
+    }
+    .links{
+      height: 100%;
+      a{
+        display: inline-block;
+        line-height: 57px;
+        color: #916f53;
+        font-size: 13px;
+        text-decoration: none;
+        margin: 0 12px;
+        &.last{
+          margin-right: 0;
+        }
+        &:hover,
+        &.active{
+          border-bottom: 3px solid #ccac82;
+          color: #ccac82;
+        }
+      }
+    }
+  }
+
+  /* Common */
+  .sections{
+    margin: 0 auto;
+    .skroller{
+      position: relative;
+      height: 100%;
+    }
+    .text{
+      position: absolute;
+      top: 90px;
+      width: 650px;
+      left: 50%;
+      margin-left: -325px;
+      color: #fff;
+      line-height: 52px;
+      font-size: 52px;
+      text-align: center;
+    }
+    .tt{
+        position: absolute;
+        bottom: 0px;
+        width: 500px;
+        left: 50%;
+        margin-left: -250px;
+        color: #ccac82;
+        line-height: 50px;
+        text-align: center;
+    }
+    .tt .t1{
+        font-size: 13px;
+        color: #916f53;
+    }
+    .t1{
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      font-size: 40px;
+      font-weight: 500;
+    }
+    .t2{
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      font-size: 30px;
+      color: #ddd;
+    }
+    .tt1{
+      font-size: 48px;
+      color:#ccac82;
+    }
+    .tt2{
+      font-size: 30px;
+      color:#ccac82;
+    }
+    .btn{
+      width: 172px;
+      height: 40px;
+      color: #916f53;
+      font-size: 16px;
+      text-align: center;
+      line-height: 40px;
+      text-decoration: none;
+      border: 1px solid #916f53;
+      display: inline-block;
+      &:hover{
+        color: #2d2522;
+        background-color: #916f53;
+      }
+    }
+  }
+
+  &.tool-index.tea-tool{
+    .tea-header .nav .nav-item .nav-wrap-product.tea-tool{ display: block; }
+  }
+
+  /* 首页 */
+  .index{
+    .content{
+      position: absolute;
+      color: #d7d7d7;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 60px;
+      .t1{
+        font-size: 52px;
+        /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      }
+      .t2{
+        font-size: 30px;
+      }
+      .more{
+        font-size: 16px;
+        color: #d7d7d7;
+        display: inline-block;
+        border: 1px solid #999c9d;
+        width: 172px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 45px;
+        &:hover{
+          background-color: #999c9d;
+          color: #2d2522;
+        }
+      }
+    }
+
+    .title{
+      font-size: 34px;
+      color: #ccac82;
+      text-align: center;
+      margin: 0px 0 40px;
+    }
+    .title-2,.title-3{
+      color: #ccac82;
+      font-size: 52px;
+      padding-top: 100px;
+      text-align: center;
+      font-weight: 100;
+    }
+    .title-3{
+      color:#CAA378;
+      position: absolute;
+    right: 66px;
+    top: 126px;
+    }
+    .desc{
+      width: 960px;
+      margin: 0 auto;
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      line-height: 25px;
+    }
+    .icon{
+      margin: 60px 0 100px;
+      height: 80px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: block;
+      &.icon1{
+        background-image: url(../images/pages/product/index/icon1.png);
+      }
+      &.icon2{
+        background-image: url(../images/pages/product/index/icon2.png);
+      }
+      &.icon3{
+        background-image: url(../images/pages/product/index/icon3.png);
+      }
+      &.icon4{
+        background-image: url(../images/pages/product/index/icon4.png);
+      }
+    }
+
+    .section1{
+      background: url(../images/pages/tea-tool/index/s1-bg.jpg) no-repeat center center #000;
+      height: 701px;
+      position: relative;
+      width: 1420px;
+      .go{
+        color: #c8c9c7;
+        font-size: 16px;
+        position: absolute;
+        left: 50%;
+        bottom: 35px;
+        width: 100px;
+        height: 70px;
+        margin-left: -50px;
+        text-decoration: none;
+        text-align: center;
+        i{
+          background: url(../images/pages/product/index/go.png) no-repeat;
+          position: absolute;
+          width: 38px;
+          height: 20px;
+          bottom: 0;
+          left: 50%;
+          margin-left: -19px;
+          animation: slide 1s ease-out infinite;
+        }
+
+        &:hover{
+          color: #ccac82;
+          i{
+            background-position: -162px 0;
+          }
+        }
+      }
+      .tt1{
+        font-size: 35px;
+        color:#8B735B;
+      }
+      .text{
+        top:100px;
+      }
+      .text-point{
+        position: absolute;
+        bottom:105px;
+        color:#8B735B;
+        font-size: 16px;
+      }
+      .txt1{left:106px;}
+      .txt2{left:250px;}
+      .txt3{left:375px;}
+      .txt4{left:510px;}
+      .txt5{left:685px;}
+      .txt6{left:910px;}
+      .txt7{left:1175px;}
+
+      .point-text{
+        position: absolute;
+        color:#7B6244;
+        font-size: 16px;
+      }
+      .pt1-1{
+        top: 243px;
+        left: 363px;
+        font-size: 20px;
+      }
+      .pt1-2{
+        top: 338px;
+        left: 191px;
+      }
+      .pt1-3{
+        top: 338px;
+        left: 544px;
+      }
+      .pt2-1{
+        top: 243px;
+        left:1035px;
+        font-size: 20px;
+      }
+      .pt2-2{
+        top: 338px;
+        left:910px;
+      }
+      .pt2-3{
+        top: 338px;
+        left:1174px;
+      }
+
+    }
+    .section2{
+      height: 720px;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+      .wrapper{
+        width: 1420px; position: relative; left: 50%;margin-left: -710px;
+      }
+      .point-text{
+        position: absolute;
+        width: 900px;
+        left: 50%;
+        margin-left: -450px;
+        font-size: 52px;
+        z-index: 999;
+        text-align: center;
+        color: #caa378;
+        top:40px;
+      }
+      .prev-slide{
+        width: 22px;
+        height: 46px;
+        position: absolute;
+        top: 50%;
+        margin-top: -11px;
+        left: 100px;
+        background: url(../images/pages/tea-tool/index/control.png) no-repeat left 0;
+        z-index: 9999;
+        &:hover{
+          background-position: -63px 0;
+        }
+      }
+      .next-slide{
+        width: 22px;
+        height: 46px;
+        position: absolute;
+        top: 50%;
+        margin-top: -11px;
+        right: 100px;
+        background: url(../images/pages/tea-tool/index/control.png) no-repeat right 0;
+        z-index: 9999;
+        &:hover{
+          background-position: -233px 0;
+        }
+      }
+
+      @media screen and (max-width: 1280px){
+        .prev{ left: 150px; }
+        .next{ right: 150px; }
+      }
+
+      .bx-pager{
+        bottom: 40px;
+      }
+
+      .bx-wrapper{
+        border: none!important;
+        box-shadow: none!important;
+        background-color: #000!important;
+        margin-bottom: 0;
+        .bx-loading{
+          background-color: #000!important;
+        }
+      }
+      .bx-viewport{
+        position: absolute;
+        left: 50%;
+        margin-left: -710px;
+      }
+      .bx-pager-link{
+        width: 14px;
+        height: 14px;
+        background: url(../images/pages/product/index/point.png) no-repeat -34px 0;
+        margin: 0 10px;
+        &.active, &:hover{
+          background-position: 0 0;
+        }
+      }
+    }
+    .section3{
+      height: 593px;
+      .title{
+        font-size: 48px;
+        color: #ccac82;
+        /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+        padding: 60px 0;
+        text-align: center;
+      }
+
+      .items{
+        width: 1420px;
+        position: absolute;
+        left: 50%;
+        margin-left: -710px;
+        text-align: center;
+        padding: 60px 0 50px 0;
+        > div{
+          display: inline-block;
+          height: 250px;
+          width: 170px;
+          background-repeat: no-repeat;
+          background-position: center top;
+          padding-top: 225px;
+          margin: 0 53px;
+        }
+        span{
+          /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+          font-size: 16px;
+          color: #916f53;
+        }
+      }
+      .item1{
+        background-image: url(../images/pages/product/index/item1.png);
+      }
+      .item2{
+        background-image: url(../images/pages/product/index/item2.png);
+      }
+      .item3{
+        background-image: url(../images/pages/product/index/item3.png);
+      }
+      .item4{
+        background-image: url(../images/pages/product/index/item4.png);
+      }
+    }
+    .section4{
+      height: 846px;
+      .skroller{
+        background: url(../images/pages/tea-tool/index/s4-bg.jpg) no-repeat center 0px #000;
+      }
+      .content{
+        top: 290px;
+        left: 0;
+        >.t1{ font-weight: 300; }
+        >.t2{ font-weight: 500; }
+      }
+    }
+    .sectoin7,.section9,.section11,.section13{
+      padding:80px 0px;
+    }
+    .section11{
+      padding:0px 0px 80px;
+    }
+    .section8{
+      height: 846px;
+      .skroller{
+        background: url(../images/pages/tea-tool/index/s8-bg.jpg) no-repeat center 0px #000;
+      }
+      .content{
+        top: 270px;
+        left: 80px;
+         >.t1{ font-weight: 300; }
+        >.t2{ font-weight: 500; }
+      }
+    }
+    .section10{
+      background: url(../images/pages/tea-tool/index/s10-bg.jpg) no-repeat center 0px #000;
+      height: 846px;
+      .content{
+        top: 80px;
+        left: 50%;
+        margin-left: -130px;
+        text-align: center;
+        width: 260px;
+        > p {  width: 100%;}
+        >.t1{ font-weight: 300; position: relative; left: -2px; }
+        >.t2{  }
+      }
+    }
+    .section12{
+      background: url(../images/pages/tea-tool/index/s12-bg.jpg) no-repeat center 0px #000;
+      height: 846px;
+      .title-2{
+        color:#ccac82;
+      }
+    }
+    .section13{
+      padding-top:80px;
+    }
+
+    .testing{
+      margin-top: 100px;
+      border-top: 1px solid #2d2522;
+      padding-top: 60px;
+      padding-bottom: 130px;
+
+      .head{
+        font-size: 48px;
+        color: #ccac82;
+        text-align: center;
+        padding-bottom: 60px;
+      }
+
+      .items{
+        width: 1025px;
+        margin: 0 auto;
+        >.item{ padding-bottom: 10px; }
+        h3{
+          cursor: pointer;
+          /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+          height: 60px;
+          line-height: 60px;
+          text-align: center;
+          border-radius: 8px;
+          background-color: #171718;
+          color: #8f9199;
+          font-size: 20px;
+          font-weight: 100;
+        }
+
+        .answer{
+          height: 400px;
+          display: none;
+          padding: 50px 0;
+        }
+
+
+
+        .options{
+          text-align: center;
+          margin-bottom: 80px;
+          li{
+            display: inline-block;
+            position: relative;
+            width: 100px;
+            cursor: pointer;
+            margin: 0 25px;
+            &:hover .radio{
+              background-position: center -53px;
+            }
+            &.active .radio{
+              background-position: center -106px;
+            }
+          }
+          .name{
+            margin-bottom: 30px;
+            font-size: 16px;
+            color: #8f9199;
+            text-align: center;
+          }
+          .radio{
+            background: url(../images/pages/product/index/test/radio.png) no-repeat center 0;
+            height: 28px;
+          }
+        }
+
+        /* 看看哪一款小罐茶适合你？ */
+        .type{
+          .img{
+            background: url(../images/pages/product/index/test/type.png) no-repeat;
+            height: 60px;
+            margin-bottom: 30px;
+            &.t1{
+              background-position: 20px 0;
+            }
+            &.t2{
+              background-position: -122px 0;
+            }
+            &.t3{
+              background-position: -266px 0;
+            }
+            &.t4{
+              background-position: -411px 0;
+            }
+            &.t5{
+              background-position: -556px 0;
+            }
+            &.t6{
+              background-position: -698px 0;
+            }
+          }
+        }
+
+        /* 你的个人体质是哪一种？ */
+        .const{
+          .img{
+            background: url(../images/pages/product/index/test/const.png) no-repeat;
+            height: 82px;
+            margin-bottom: 20px;
+            &.c1{
+              background-position: 22px 0;
+            }
+            &.c2{
+              background-position: -166px 0;
+            }
+            &.c3{
+              background-position: -353px 0;
+            }
+            &.c4{
+              background-position: -542px 0;
+            }
+          }
+        }
+
+        /* 你喝茶的季节是？ */
+        .season{
+          .img{
+            background: url(../images/pages/product/index/test/season.png) no-repeat;
+            height: 82px;
+            margin-bottom: 20px;
+            &.s1{
+              background-position: 20px center;
+            }
+            &.s2{
+              background-position: -169px center;
+            }
+            &.s3{
+              background-position: -355px center;
+            }
+            &.s4{
+              background-position: -544px center;
+            }
+          }
+        }
+
+        /* 你喝茶的时间是？ */
+        .time{
+          .img{
+            background: url(../images/pages/product/index/test/time.png) no-repeat;
+            height: 82px;
+            margin-bottom: 20px;
+            &.m1{
+              background-position: 17px center;
+            }
+            &.m2{
+              background-position: -172px center;
+            }
+            &.m3{
+              background-position: -356px center;
+            }
+          }
+        }
+      }
+
+      .results{
+        padding-left: 0.5px;
+        display: none;
+        .btn{
+          margin: 0 40px;
+        }
+      }
+
+      .tea-list{
+        padding-top: 45px;
+        li{
+          display: none;
+          padding: 20px;
+          position: relative;
+          float: left;
+          width: 400px;
+          height: 1020px;
+          margin-right: 9px;
+          margin-bottom: 9px;
+          background-color: #171718;
+          border-radius: 10px;
+
+          &.center{
+            margin-left: 430px;
+          }
+          &.two-center{
+            margin-left: 205px;
+          }
+          &.last-center{
+            margin-left: 409px;
+          }
+        }
+
+        .img{
+          height: 320px;
+          padding-top: 250px;
+          background-position: center center;
+          background-repeat: no-repeat;
+          &.lj{
+            background-image: url(../images/pages/product/index/test/lj.png);
+          }
+          &.mf{
+            background-image: url(../images/pages/product/index/test/mf.png);
+          }
+          &.hp{
+            background-image: url(../images/pages/product/index/test/hp.png);
+          }
+          &.tgy{
+            background-image: url(../images/pages/product/index/test/tgy.png);
+          }
+          &.tgy-1{
+            background-image: url(../images/pages/product/index/test/tgy-1.png);
+          }
+          &.jm{
+            background-image: url(../images/pages/product/index/test/jm.png);
+          }
+          &.zh{
+            background-image: url(../images/pages/product/index/test/zh.png);
+          }
+          &.pr{
+            background-image: url(../images/pages/product/index/test/pr.png);
+          }
+          &.pr-1{
+            background-image: url(../images/pages/product/index/test/pr-1.png);
+          }
+          &.ml{
+            background-image: url(../images/pages/product/index/test/ml.png);
+          }
+          &.bc{
+            background-image: url(../images/pages/product/index/test/bc.png);
+          }
+          span{
+            display: block;
+            text-align: center;
+            font-size: 26px;
+            color: #c4a57d;
+          }
+        }
+
+        .info{
+          background: url(../images/pages/product/index/test/ri-item.png) no-repeat center center;
+          height: 555px;
+          margin-bottom: 35px;
+          font-size: 13px;
+          color: #8f9199;
+          line-height: 20px;
+          > div{
+            position: absolute;
+            overflow: hidden;
+          }
+        }
+
+        .key{
+          color: #65676c;
+          /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+        }
+
+        .value{
+          /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+        }
+
+        .l1{
+          width: 110px;
+          top: 17px;
+          left: 65px;
+        }
+
+        .l2{
+          width: 120px;
+          top: 17px;
+          left: 250px;
+        }
+
+        .l3{
+          width: 110px;
+          top: 86px;
+          left: 65px;
+        }
+
+        .l4{
+          width: 120px;
+          top: 86px;
+          left: 250px;
+        }
+
+        .l5{
+          width: 55px;
+          top: 155px;
+          left: 65px;
+        }
+
+        .l6{
+          width: 55px;
+          top: 155px;
+          left: 183px;
+        }
+
+        .l7{
+          width: 55px;
+          top: 155px;
+          left: 315px;
+        }
+
+        .l8{
+          width: 120px;
+          top: 225px;
+          left: 65px;
+        }
+
+        .l9{
+          width: 120px;
+          top: 225px;
+          left: 250px;
+        }
+
+        .l10{
+          width: 260px;
+          top: 292px;
+          left: 110px;
+        }
+
+        .l11{
+          width: 260px;
+          top: 361px;
+          left: 110px;
+        }
+
+        .l12{
+          width: 260px;
+          top: 431px;
+          left: 110px;
+        }
+
+        .l13{
+          width: 120px;
+          top: 500px;
+          left: 65px;
+        }
+
+        .l14{
+          width: 120px;
+          top: 500px;
+          left: 250px;
+        }
+
+        .star{
+          background: url(../images/pages/product/index/test/star.png) no-repeat;
+          height: 9px;
+          display: block;
+          margin-top: 5px;
+        }
+
+        .star1{
+          width: 10px;
+        }
+        .star2{
+          width: 22px;
+        }
+        .star3{
+          width: 34px;
+        }
+        .star4{
+          width: 45px;
+        }
+        .star5{
+          width: 55px;
+        }
+
+        .btn{
+          margin: 0;
+        }
+        .more{
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .glass{width: 1218px;margin: 0px auto;padding-bottom:90px;}
+    .glass li{
+      width:243px;
+      border-right: 1px solid #2d2522;
+      float: left;
+      text-align: center;
+      padding-bottom: 30px;
+      .name{
+        font-size: 26px;
+        color:#c4a57d;
+        padding:200px 0px 36px;
+      }
+      &.item-1{
+        background: url(../images/pages/tea-tool/index/1.png) no-repeat center 0px;
+      }
+      &.item-2{
+        background: url(../images/pages/tea-tool/index/2.png) no-repeat center 0px;
+      }
+      &.item-3{
+        background: url(../images/pages/tea-tool/index/3.png) no-repeat center 0px;
+      }
+      &.item-4{
+        background: url(../images/pages/tea-tool/index/4.png) no-repeat center 0px;
+      }
+      &.item-5{
+        background: url(../images/pages/tea-tool/index/5.png) no-repeat center 0px;
+      }
+      &.end{border:none;}
+    }
+  }
+
+
+  /*理念*/
+  .concept{
+    .tt1{
+      font-size: 46px;
+    }
+    .section1{
+      background: url(../images/pages/tea-tool/concept/s1-bg.jpg) no-repeat center 0px #000;
+      height: 770px;
+      .text {
+        top: 197px;
+        margin-left: -725px;
+      }
+    }
+    .section2{
+      background: url(../images/pages/tea-tool/concept/s2-bg.jpg) no-repeat center 0px #000;
+      height: 770px;
+      .text {
+        top: 320px;
+        margin-left: -760px;
+      }
+    }
+    .info{
+      line-height: 25px;
+      padding: 60px 0px 90px;
+      text-align: center;
+      font-size: 16px;
+      color:#fff;
+    }
+  }
+
+  /*设计*/
+  .design{
+    .section1{
+      background: url(../images/pages/tea-tool/design/s1-bg.jpg) no-repeat center 0px #000;
+      height: 770px;
+    }
+    .section2{
+      background: url(../images/pages/tea-tool/design/s2-bg.jpg) no-repeat center 0px #000;
+      height: 770px;
+      margin-bottom: 100px;
+      .text{
+        top: 261px;
+        letter-spacing: 2px;
+        margin-left: 78px;
+      }
+      .tt2 {
+        font-size: 48px;
+        margin-top: 8px;
+      }
+    }
+    .section3{
+      background: url(../images/pages/tea-tool/design/s3-bg.jpg) no-repeat center 0px #000;
+      height: 770px;
+      margin-bottom: 100px;
+      .text{
+        left:auto;
+        top: 283px;
+        right: 800px;
+        text-align: right;
+      }
+      .tt1{
+        font-size: 42px;
+      }
+      .tt2 {
+        font-size: 42px;
+        position: relative;
+        right: 76px;
+        letter-spacing: 2px;
+        top: 8px;
+      }
+    }
+    ul{
+      width: 1220px;
+      margin:0px auto;
+    }
+    ul li{
+      width: 600px;
+      margin-bottom: 25px;
+      float: left;
+      font-size:25px;
+      color:#c4a57d;
+      text-align: center;
+      border-right: 1px solid #2d2522;
+      &.icon0 {
+        background: url(../images/pages/tea-tool/design/icon1.png) no-repeat center 0 ;
+        background-size: 230px 200px;
+      }
+      &.icon1{
+        background: url(../images/pages/tea-tool/design/icon1.png) no-repeat center 0 ;
+        background-size: 230px 200px;
+      }
+      &.icon2{
+        background: url(../images/pages/tea-tool/design/icon2.png) no-repeat center 0 ;
+        background-size: 230px 200px;
+      }
+      &.icon3{
+        background: url(../images/pages/tea-tool/design/icon3.png) no-repeat center 0 ;
+        background-size: 230px 200px;
+      }
+      &.icon4{
+        border-right: none;
+        background: url(../images/pages/tea-tool/design/icon4.png) no-repeat center 0 ;
+        background-size: 230px 200px;
+      }
+      &.icon5{
+        background: url(../images/pages/tea-tool/design/icon5.png) no-repeat center 0 ;
+        background-size: 230px 200px;
+      }
+      &.icon6{
+        border-right: none;
+        background: url(../images/pages/tea-tool/design/icon6.png) no-repeat center 0 ;
+        background-size: 230px 200px;
+      }
+      a {
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 16px;
+        border: 1px solid #916f53;
+        width: 172px;
+        height: 40px;
+        line-height: 40px;
+        text-decoration: none;
+        color: #916f53;
+        &:hover {
+          background-color: #916f53;
+          color: #2d2522;
+          border-color: #916f53;
+        }
+      }
+    }
+    .section-top li {
+      width: 243px;
+      border-right: 1px solid #2d2522;
+      float: left;
+      text-align: center;
+      padding: 200px 0 36px;
+    }
+    .section-bottom li {
+      height: 590px;
+      padding-top:200px;
+    }
+    ul li.first{
+      margin-right: 0px;
+    }
+    .big-title{
+      font-size:48px;
+      color:#ccac82;
+      text-align: center;
+      padding: 60px 0px 90px;
+    }
+    ul.mb{
+      margin-bottom: 90px;
+    }
+    .info{
+      padding: 60px 0px 90px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 25px;
+      color:#fff;
+    }
+  }
+
+
+  /*工艺*/
+
+  .technology{
+    .section1{
+      background: url(../images/pages/tea-tool/technology/s1-bg.jpg) no-repeat center 0px #000;
+      height: 770px;
+      .text {
+        top: 265px;
+        letter-spacing: 2px;
+        margin-left: -751px;
+      }
+      .tt1 {
+        font-size: 48px;
+      }
+    }
+    .section2{
+      background: url(../images/pages/tea-tool/technology/s2-bg.jpg) no-repeat center 0px #000;
+      height: 770px;
+      .text{
+        top: 309px;
+        margin-left: 106px;
+        letter-spacing: 2px;
+      }
+    }
+    .section3{
+      background: url(../images/pages/tea-tool/technology/s3-bg.jpg) no-repeat center 0px #000;
+      height: 770px;
+      .text{
+        left:auto;
+        text-align: left;
+        width:300px;
+        top: 198px;
+        letter-spacing: 2px;
+        right: -8px;
+      }
+      .tt2 {
+        margin-left: -19px;
+        padding-top: 3px;
+      }
+    }
+    .info{
+      line-height: 25px;
+      padding: 60px 0px 120px;
+      text-align: center;
+      font-size: 16px;
+      color:#fff;
+    }
+  }
+
+
+
+
+
+
+
+  /*茶具公用*/
+  .tea-common{
+    padding-bottom: 110px; /* 底部间距 */
+    .text{
+      width: 400px;
+      margin: 0;
+    }
+
+    .item table { width: 400px; margin:25px 0px 0px 510px; font-size: 13px; color: #8f9199; border-bottom: 2px solid #38393a; border-top: 2px solid #38393a; }
+    .item table tr { height: 50px; border-bottom: 1px solid #38393a; }
+    .item table tr td { width: auto;padding-left: 20px;text-align: left;}
+    .item table tr td span { font-weight: 900; }
+    .item .border {border-right: 1px dotted #38393a;}
+
+
+
+
+    .t1{
+      font-size: 35px;
+      color: #ccac82;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+
+    .t2{
+      font-size: 20px;
+      /*font-family: 'SourceHanR', 'Microsoft Yahei';*/
+      line-height: 30px;
+      color:#a9a9a9;
+    }
+
+    .section1{
+      height: 720px;
+      .text{
+        margin-left: -200px;
+        top: 80px;
+      }
+
+      .t1{
+        font-size: 48px;
+      }
+    }
+
+    .section2{
+      background: url(../images/pages/tea-tool/s2-bg.jpg) repeat-x;
+      height: 680px;
+      padding: 100px 0;
+      position: relative;
+      .title{
+        font-size: 35px;
+        line-height: 35px;
+        text-align: center;
+        color:#916f53;
+        padding: 0px 0px 60px;
+      }
+      a{
+        position: absolute;
+        left:50%;
+        margin-left: -86px;
+        bottom:160px;
+      }
+      .info{
+        font-size: 13px;
+        color:#916f53;
+        text-align: center;
+        padding-top: 170px;
+      }
+    }
+
+    .section3{
+      height: 720px;
+      .text{
+        width: 600px;
+        left: 0;
+        top: 290px;
+        text-align: left;
+      }
+    }
+
+    .section4{
+      height: 720px;
+      .text{
+        text-align: left;
+        left: 800px;
+        top: 320px;
+      }
+    }
+
+    .section5{
+      height: 720px;
+      .text{
+        text-align: left;
+        left: 0;
+        top: 310px;
+      }
+    }
+
+    .section6{
+      height: 720px;
+      .text{
+        text-align: left;
+        left: 800px;
+        top: 320px;
+      }
+    }
+
+    .section7{
+      height: 750px;
+      .text{
+        text-align: left;
+        top: 320px;
+        left: 20px;
+      }
+    }
+
+    .section8{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/longjing/s8-bg.jpg) no-repeat center 0;
+      }
+    }
+
+    .section9{
+      height: 660px;
+
+      .text{
+        margin-left: -155px;
+      }
+
+      .item{
+        background: url(../images/pages/product/longjing/s9-bg.png) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        top: 210px;
+        width: 1050px;
+        height: 260px;
+
+        p{
+          width: 250px;
+          position: absolute;
+          bottom: -90px;
+          text-align: center;
+          font-size: 16px;
+          color: #a9a9a9;
+          line-height: 30px;
+        }
+
+        .i1{
+          left: 0;
+        }
+        .i2{
+          left: 400px;
+        }
+        .i3{
+          left: 800px;
+        }
+      }
+    }
+
+    .section10{
+      height: 720px;
+      .skroller{
+        background: url(../images/pages/product/longjing/s10-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 400px;
+        top: 230px;
+        left: 800px;
+        text-align: right;
+      }
+      .t1{
+        margin-bottom: 20px;
+      }
+      .t2{
+        margin-bottom: 30px;
+      }
+    }
+
+    .section11{
+      height: 520px;
+      background-color: #1b1c1c;
+      .text{
+        margin-left: -155px;
+        top: 95px;
+      }
+    }
+  }
+
+  /*旅行杯*/
+  .lvxingbei{
+    .section1{
+      background: url(../images/pages/tea-tool/lvxingbei/s1-bg.jpg) no-repeat center 0;
+    }
+    .section3{
+      .skroller{
+        background: url(../images/pages/tea-tool/lvxingbei/s3-bg.jpg) no-repeat center 0;
+      }
+    }
+    .section4{
+      .skroller{
+        background: url(../images/pages/tea-tool/lvxingbei/s4-bg.jpg) no-repeat center 0;
+      }
+    }
+    .section5{
+      background: url(../images/pages/tea-tool/lvxingbei/s5-bg.jpg) no-repeat center 0;
+    }
+    .section6{
+      .skroller{
+        background: url(../images/pages/tea-tool/lvxingbei/s4-bg.jpg) no-repeat center 0;
+      }
+    }
+    .section7{
+      .skroller{
+        background: url(../images/pages/tea-tool/lvxingbei/s7-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 600px;
+      }
+    }
+  }
+
+
+  /*便携包*/
+  .bianxiebao{
+    .section1{
+      background: url(../images/pages/tea-tool/bianxiebao/s1-bg.jpg) no-repeat center 0;
+    }
+    .section3{
+      .text{
+        top:270px;
+      }
+      .skroller{
+        background: url(../images/pages/tea-tool/bianxiebao/s3-bg.jpg) no-repeat center 0;
+      }
+    }
+    .section4{
+      position: relative;
+      .text{
+        width: 800px;
+        left:50%;
+        margin-left: -400px;
+        text-align: center;
+        top:500px;
+      }
+      .skroller{
+        background: url(../images/pages/tea-tool/bianxiebao/s4-bg.jpg) no-repeat center 0;
+      }
+    }
+    .section5{
+      background: url(../images/pages/tea-tool/bianxiebao/s5-bg.jpg) no-repeat center 0;
+      .text{
+        width: 600px;
+        top:100px;
+      }
+    }
+    .section6{
+      position: relative;
+      .skroller{
+        background: url(../images/pages/tea-tool/bianxiebao/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 800px;
+        left:50%;
+        margin-left: -400px;
+        text-align: center;
+        top:80px;
+      }
+    }
+  }
+
+  /*行政套杯*/
+  .xingzhengtaobei{
+    .section1{
+      background: url(../images/pages/tea-tool/xingzhengtaobei/s1-bg.jpg) no-repeat center 0;
+      .text{
+        width:500px;
+        margin-left: -215px;
+      }
+    }
+    .section2{
+      .title{
+        padding-bottom:20px;
+      }
+      a{
+        bottom:100px;
+      }
+      .info{
+        padding-top: 140px;
+      }
+    }
+    .section3{
+      .text{
+        right: 0px;
+        top: 200px;
+        left:auto;
+      }
+      .skroller{
+        background: url(../images/pages/tea-tool/xingzhengtaobei/s3-bg.jpg) no-repeat center 0;
+      }
+    }
+    .section4{
+      .text{
+        width: 600px;
+      }
+      .skroller{
+        background: url(../images/pages/tea-tool/xingzhengtaobei/s4-bg.jpg) no-repeat center 0;
+      }
+    }
+    .section5{
+      background: url(../images/pages/tea-tool/xingzhengtaobei/s5-bg.jpg) no-repeat center 0;
+    }
+    .section6{
+      position: relative;
+      .skroller{
+        background: url(../images/pages/tea-tool/xingzhengtaobei/s6-bg.jpg) no-repeat center 0;
+      }
+      .text{
+        width: 500px;
+        right: 0px;
+        left:auto;
+        top:200px;
+      }
+    }
+  }
+
+
+
+/*功夫套杯*/
+.gongfutaobei{
+  .section1{
+    background: url(../images/pages/tea-tool/gongfutaobei/s1-bg.jpg) no-repeat center 0;
+    .text{
+      width:500px;
+      margin-left: -215px;
+    }
+  }
+  .section2{
+    .title{
+      padding-bottom:20px;
+    }
+    a{
+      bottom:100px;
+    }
+    .info{
+      padding-top: 140px;
+    }
+  }
+  .section3{
+    position: relative;
+    .text{
+      right: 0px;
+      top: 70px;
+      width: 100%;
+      text-align: center;
+    }
+    .t2{
+      color:#a9a9a9;
+    }
+    .skroller{
+      background: url(../images/pages/tea-tool/gongfutaobei/s3-bg.jpg) no-repeat center 0;
+    }
+  }
+  .section4{
+    position: relative;
+    .text{
+      width: 100%;
+      top:120px;
+      color:#a9a9a9;
+      left:auto;
+      text-align: center;
+    }
+    .skroller{
+      background: url(../images/pages/tea-tool/gongfutaobei/s4-bg.jpg) no-repeat center 0;
+    }
+  }
+  .section5{
+    background: url(../images/pages/tea-tool/gongfutaobei/s5-bg.jpg) no-repeat center 0;
+    .text{
+      color:#a9a9a9;
+      width:500px;
+      left:auto;
+      right:0px;
+    }
+  }
+}
+
+
+/*长官杯*/
+.zhangguanbei{
+  .section1{
+    background: url(../images/pages/tea-tool/zhangguanbei/s1-bg.jpg) no-repeat center 0;
+    .text{
+      width:500px;
+      margin-left: -215px;
+    }
+  }
+  .section2{
+    .title{
+      padding-bottom:20px;
+    }
+    a{
+      bottom:140px;
+    }
+    .info{
+      padding-top: 180px;
+    }
+  }
+  .section3{
+    .text{
+      right: 0px;
+      top: 120px;
+    }
+    .t2{
+      color:#a9a9a9;
+    }
+    .skroller{
+      background: url(../images/pages/tea-tool/zhangguanbei/s3-bg.jpg) no-repeat center 0;
+    }
+  }
+  .section4{
+    .text{
+      width: 600px;
+    }
+    .skroller{
+      background: url(../images/pages/tea-tool/zhangguanbei/s4-bg.jpg) no-repeat center 0;
+    }
+  }
+  .section5{
+    background: url(../images/pages/tea-tool/zhangguanbei/s5-bg.jpg) no-repeat center 0;
+  }
+  .section6{
+    position: relative;
+    .skroller{
+      background: url(../images/pages/tea-tool/zhangguanbei/s6-bg.jpg) no-repeat center 0;
+    }
+    .text{
+      width: 500px;
+      right: 0px;
+      left:auto;
+      top:200px;
+    }
+  }
+}
+
+
+
+}
